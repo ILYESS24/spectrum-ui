@@ -23,10 +23,10 @@ export default function IntroductionPage() {
           <Button asChild>
             <Link href="/docs/installation">
               Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </span>
+            </Link>
           </Button>
           <Button variant="outline" asChild>
-            <Link href="">
+            <span>
               <Github className="mr-2 h-4 w-4" />
               GitHub
             </span>
@@ -40,21 +40,18 @@ export default function IntroductionPage() {
         <div className="text-muted-foreground space-y-4">
           <p>
             Aurion UI is a collection of re-usable components built using{" "}
-            <Link
-              href=""
+            <span
               className="font-medium underline underline-offset-4"
             >
               Aceternity UI
             </span>{" "}
-            <Link
-              href=""
+            <span
               className="font-medium underline underline-offset-4"
             >
               Magic UI
             </span>{" "}
             and{" "}
-            <Link
-              href=""
+            <span
               className="font-medium underline underline-offset-4"
             >
               ShadCN UI
@@ -126,36 +123,31 @@ export default function IntroductionPage() {
         <h2 className="text-3xl font-bold tracking-tight">Credits</h2>
         <p className="text-muted-foreground gap-4">
           Built with{" "}
-          <Link
-            href=""
+          <span
             className="font-medium underline underline-offset-4 mr-2"
           >
             Aceternity UI
           </span>
           ,{" "}
-          <Link
-            href=""
+          <span
             className="font-medium underline underline-offset-4"
           >
             Magic UI
           </span>
           ,{" "}
-          <Link
-            href=""
+          <span
             className="font-medium underline underline-offset-4"
           >
             ShadCN UI
           </span>
           ,{" "}
-          <Link
-            href=""
+          <span
             className="font-medium underline underline-offset-4"
           >
             Next.js
           </span>
           , and{" "}
-          <Link
-            href=""
+          <span
             className="font-medium underline underline-offset-4"
           >
             TypeScript

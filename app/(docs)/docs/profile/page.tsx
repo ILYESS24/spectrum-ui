@@ -38,7 +38,7 @@ const DualRangeSliderPage = () => {
         <h1 className="text-neutral-700 dark:text-neutral-400">
           Design Credit -
         </h1>
-        <Link href="">@heyrico</span>
+        <span>@heyrico</span>
       </div>
     </PageTemplate>
   );
