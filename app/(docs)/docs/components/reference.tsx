@@ -1,17 +1,16 @@
 import React from "react";
-import Link, { LinkProps } from "next/link";
 import { Badge } from "@/components/ui/badge";
 
 import { cn } from "@/lib/utils";
 
-interface ReferenceProps extends LinkProps {
+interface ReferenceProps extends React.HTMLAttributes<HTMLSpanElement> {
   icon?: React.ReactNode;
   text?: string;
 }
 
 export const Reference = ({ icon, text, ...props }: ReferenceProps) => {
   return (
-    <Link {...props} target="_blank">
+    <span {...props}>
       <Badge variant="secondary" className="flex gap-2">
         {icon}
         {text}

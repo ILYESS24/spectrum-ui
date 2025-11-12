@@ -35,7 +35,7 @@ const page = () => {
           <h1>Credits</h1>
           <p>
             This component is inspired by{" "}
-            <Link href="">
+            <span>
               Aceternity UI ❤️
             </span>
           </p>
