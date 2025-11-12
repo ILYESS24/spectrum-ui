@@ -235,7 +235,7 @@ export default function GitHubProfileCard() {
           property="og:title"
           content={
             userData
-              ? `${userData.name || userData.login} - GitHub Profile Card`
+              ? (userData.name || userData.login) + " - GitHub Profile Card"
               : "GitHub Profile Card Generator"
           }
         />
@@ -243,7 +243,7 @@ export default function GitHubProfileCard() {
           property="og:description"
           content={
             userData
-              ? `Check out ${userData.name || userData.login}'s GitHub profile card with ${userData.public_repos} repositories and ${userData.followers} followers.`
+              ? "Check out " + (userData.name || userData.login) + "'s GitHub profile card with " + userData.public_repos + " repositories and " + userData.followers + " followers."
               : "Generate beautiful GitHub profile cards to showcase your coding journey and contributions."
           }
         />
@@ -264,7 +264,7 @@ export default function GitHubProfileCard() {
           name="twitter:title"
           content={
             userData
-              ? `${userData.name || userData.login} - GitHub Profile Card`
+              ? (userData.name || userData.login) + " - GitHub Profile Card"
               : "GitHub Profile Card Generator"
           }
         />
@@ -272,7 +272,7 @@ export default function GitHubProfileCard() {
           name="twitter:description"
           content={
             userData
-              ? `Check out ${userData.name || userData.login}'s GitHub profile card with ${userData.public_repos} repositories and ${userData.followers} followers.`
+              ? "Check out " + (userData.name || userData.login) + "'s GitHub profile card with " + userData.public_repos + " repositories and " + userData.followers + " followers."
               : "Generate beautiful GitHub profile cards to showcase your coding journey and contributions."
           }
         />
