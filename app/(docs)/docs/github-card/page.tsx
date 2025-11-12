@@ -218,7 +218,7 @@ export default function GitHubProfileCard() {
       <Head>
         <title>
           {userData
-            ? `${userData.name || userData.login} - GitHub Profile Card`
+            ? (userData.name || userData.login) + " - GitHub Profile Card"
             : "GitHub Profile Card Generator"}
         </title>
         <meta

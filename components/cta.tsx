@@ -12,9 +12,9 @@ const Cta = () => {
     </h1>
     <Link href="mailto:jainari1208@gmail.com">
     <Button className="rounded-full text-sm">
-    Let’s work together →
+    Let's work together →
     </Button>
-    </span>
+    </Link>
    </div>
   );
 };
