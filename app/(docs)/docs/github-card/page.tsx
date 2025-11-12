@@ -196,13 +196,13 @@ export default function GitHubProfileCard() {
 
   const shareToTwitter = () => {
     const text = `I have generated my GitHub card from Aurion UI! 🚀\n\nGenerate yours: ${window.location.href}\n\n#GitHub #AurionUI #Developer`;
-    const url = `)}`;
+    const url = ``;
     window.open(url, "_blank");
   };
 
   const shareToLinkedIn = () => {
     const text = `I have generated my GitHub card from Aurion UI! Check out this amazing tool to showcase your GitHub profile.`;
-    const url = `)}&summary=${encodeURIComponent(text)}`;
+    const url = ``;
     window.open(url, "_blank");
   };
 

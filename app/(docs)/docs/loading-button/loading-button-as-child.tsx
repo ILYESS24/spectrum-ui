@@ -1,6 +1,5 @@
 import React from "react";
 import { LoadingButton } from "@/components/ui/loading-button";
-import Link from "next/link";
 
 const LoadingButtonAsChild = () => {
   return (
@@ -9,10 +8,10 @@ const LoadingButtonAsChild = () => {
         <p>As a `p` child</p>
       </LoadingButton>
       <LoadingButton asChild>
-        <Link href="#">as a `Link` child</span>
+        <span>as a `span` child</span>
       </LoadingButton>
       <LoadingButton asChild variant="secondary">
-        <Link href="#">as a `Link` child with `secondary` variant</span>
+        <span>as a `span` child with `secondary` variant</span>
       </LoadingButton>
     </div>
   );
