@@ -225,7 +225,7 @@ export default function GitHubProfileCard() {
           name="description"
           content={
             userData
-              ? `Check out ${userData.name || userData.login}'s GitHub profile card with ${userData.public_repos} repositories and ${userData.followers} followers.`
+              ? "Check out " + (userData.name || userData.login) + "'s GitHub profile card with " + userData.public_repos + " repositories and " + userData.followers + " followers."
               : "Generate beautiful GitHub profile cards to showcase your coding journey and contributions."
           }
         />

@@ -732,7 +732,7 @@ export default function CardCollection() {
                   checked={task.completed}
                   onChange={() => {}}
                   className="mr-2"
-                  aria-label={`Task ${index + 1}: ${task.name}`}
+                  aria-label={"Task " + (index + 1) + ": " + task.name}
                 />
                 <span
                   className={
@@ -2004,6 +2004,7 @@ export function ProductivityTrackerCard() {
                 checked={task.completed}
                 onChange={() => {}}
                 className="mr-2"
+                aria-label={"Task " + (index + 1) + ": " + task.name}
               />
               <span className={task.completed ? 'line-through text-muted-foreground' : ''}>
                 {task.name}
