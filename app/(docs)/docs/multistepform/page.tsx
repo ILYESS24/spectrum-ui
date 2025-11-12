@@ -10,7 +10,7 @@ const page = () => {
       <PageTemplate title="Multistep Form" className="mt-5">
         <PreviewCodeCard
           path="app/(docs)/docs/multistepform/multistepdemo.tsx"
-          cli="@spectrumui/multiple-step-form-demo"
+          cli="@aurionui/multiple-step-form-demo"
         >
           <Multistepdemo />
         </PreviewCodeCard>

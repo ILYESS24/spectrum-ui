@@ -29,11 +29,11 @@ const FloatingLabelPage = () => {
       description="Material UI design system floating label."
     >
       <ReferenceBorder>
-        <Reference href="https://ui.shadcn.com/docs/components/input" />
+        <Reference href="" />
       </ReferenceBorder>
       <PreviewCodeCard
         path="app/(docs)/docs/floating-label-input/floating-label-input-demo.tsx"
-        cli="@spectrumui/floating-label-input-demo"
+        cli="@aurionui/floating-label-input-demo"
       >
         <FloatingLabelInputDemo />
       </PreviewCodeCard>
@@ -50,7 +50,7 @@ const FloatingLabelPage = () => {
       <Usage
         title="Customize"
         path="app/(docs)/docs/floating-label-input/usage/floating-label-customize.tsx"
-        cli="@spectrumui/floating-label-customize"
+        cli="@aurionui/floating-label-customize"
         description={
           <p className="text-muted-foreground">
             You have fully control of the <InlineCode>FloatingLabel</InlineCode>{" "}
@@ -64,7 +64,7 @@ const FloatingLabelPage = () => {
       <Usage
         title="Form"
         path="app/(docs)/docs/floating-label-input/usage/floating-label-input-form.tsx"
-        cli="@spectrumui/floating-label-form"
+        cli="@aurionui/floating-label-form"
       >
         <FloatingLabelInputForm />
       </Usage>

@@ -7,9 +7,9 @@ import { baseMetadata } from '@/app/(docs)/layout-parts/base-metadata';
 import LoginPage from './login-demo';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Spectrum UI-Login card',
+  title: 'Aurion UI-Login card',
   description:
-    'Spectrum UI Login page is a simple and elegant login form that allows users to sign in to their accounts. It is designed to be easy to use and visually appealing, with a clean and modern interface.',
+    'Aurion UI Login page is a simple and elegant login form that allows users to sign in to their accounts. It is designed to be easy to use and visually appealing, with a clean and modern interface.',
 });
 
 const Loginpage = () => {
@@ -17,7 +17,7 @@ const Loginpage = () => {
     <PageTemplate title="Login Card">
       <PreviewCodeCard
         path="app/(docs)/docs/login/login-demo.tsx"
-        cli="@spectrumui/login-card"
+        cli="@aurionui/login-card"
       >
         <LoginPage />
       </PreviewCodeCard>

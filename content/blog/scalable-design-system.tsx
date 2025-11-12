@@ -270,7 +270,7 @@ export default function AnalyticsPage() {
       </ul>
 
       <p className="mt-4">
-        Spectrum UI comes with examples and docs for each component. You can also use tools like Storybook 
+        Aurion UI comes with examples and docs for each component. You can also use tools like Storybook 
         or build your own docs site.
       </p>
 
@@ -392,7 +392,7 @@ export default function AnalyticsPage() {
 
 <p className="text-base font-normal dark:text-[#ededed] text-[#0A0A0A]">
         A good design system is one of the best things you can do for your frontend. It makes everything faster, 
-        more consistent, and easier to maintain. Spectrum UI gives you a solid starting point—use it as your foundation 
+        more consistent, and easier to maintain. Aurion UI gives you a solid starting point—use it as your foundation 
         and customize it to fit your brand.
       </p>
     </div>

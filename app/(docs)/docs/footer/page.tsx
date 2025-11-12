@@ -17,7 +17,7 @@ import ParticleAnimationFooter from "./usage/particlefooter";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Footers",
+  title: "Aurion UI-Footers",
   description:
     "An enhancement slider that allows you to select a range of values.",
 });
@@ -27,7 +27,7 @@ const DualRangeSliderPage = () => {
     <PageTemplate title="Footers">
       <PreviewCodeCard
         path="app/(docs)/docs/footer/footerdemo.tsx"
-        cli="@spectrumui/footers-demo"
+        cli="@aurionui/footers-demo"
       >
         <Footerdemo />
       </PreviewCodeCard>
@@ -50,21 +50,21 @@ const DualRangeSliderPage = () => {
       <Usage
         title="StackedCircular Footer"
         path="app/(docs)/docs/footer/usage/stackedfooter.tsx"
-        cli="@spectrumui/stackedcircular-footer"
+        cli="@aurionui/stackedcircular-footer"
       >
         <StackedCircularFooter />
       </Usage>
       <Usage
         title="FloatingParticle Footer"
         path="app/(docs)/docs/footer/usage/particlefooter.tsx"
-        cli="@spectrumui/floatingparticle-footer"
+        cli="@aurionui/floatingparticle-footer"
       >
         <ParticleAnimationFooter />
       </Usage>
       <Usage
         title="Footer"
         path="components/footer.tsx"
-        cli="@spectrumui/footer"
+        cli="@aurionui/footer"
       >
         <Footer />
       </Usage>

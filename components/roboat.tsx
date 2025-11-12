@@ -4,7 +4,7 @@ import { SplineScene } from "./ui/splite";
 const Roboat = () => {
   return (
     <SplineScene
-      scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+      scene=""
       className="w-full h-full"
     />
   );

@@ -25,11 +25,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     }
   }
 
-  const baseUrl = "https://ui.spectrumhq.in"
+  const baseUrl = ""
   const blogUrl = `${baseUrl}/blog/${post.slug}`
   
   return {
-    title: `${post.title} | Spectrum UI Blog`,
+    title: `${post.title} | Aurion UI Blog`,
     description: post.excerpt,
     keywords: [
       "UI components",
@@ -45,14 +45,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       post.category?.toLowerCase() || "",
       ...post.title.toLowerCase().split(" "),
     ].filter(Boolean).join(", "),
-    authors: [{ name: post.author.name, url: "https://ui.spectrumhq.in" }],
+    authors: [{ name: post.author.name, url: "" }],
     creator: post.author.name,
-    publisher: "Spectrum UI",
+    publisher: "Aurion UI",
     openGraph: {
       title: post.title,
       description: post.excerpt,
       url: blogUrl,
-      siteName: "Spectrum UI",
+      siteName: "Aurion UI",
       images: [
         {
           url: `${baseUrl}/og.png`,
@@ -105,7 +105,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
     notFound()
   }
 
-  const baseUrl = "https://ui.spectrumhq.in"
+  const baseUrl = ""
   const blogUrl = `${baseUrl}/blog/${post.slug}`
   
   // Generate structured data
@@ -150,10 +150,10 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
           <ArrowLeft className="h-4 w-4 mr-2" />
           Blog
         </Button>
-      </Link>
+      </span>
   
       {/* Article Header */}
-      <article itemScope itemType="https://schema.org/BlogPosting">
+      <article itemScope itemType="">
         <header className="text-center mb-8 sm:mb-12">
           <h1 itemProp="headline" className="text-base sm:text-lg md:text-xl lg:text-2xl max-w-xl mx-auto font-bold text-foreground mb-6 leading-snug sm:leading-tight">
             {post.title}
@@ -169,7 +169,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                   .join("")}
               </AvatarFallback>
             </Avatar>
-            <div itemProp="author" itemScope itemType="https://schema.org/Person" className="text-sm text-center sm:text-left">
+            <div itemProp="author" itemScope itemType="" className="text-sm text-center sm:text-left">
               <span itemProp="name" className="text-foreground font-medium">{post.author.name}</span>
               <span className="text-muted-foreground ml-2">Design Engineer</span>
             </div>
@@ -200,13 +200,13 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
           <Link href="/" className="group">
             <div className="p-4 border border-border rounded-lg hover:bg-accent/20 transition-colors">
               <h3 className="font-medium text-foreground group-hover:text-primary transition-colors mb-2">
-                Explore Spectrum UI Components
+                Explore Aurion UI Components
               </h3>
               <p className="text-sm text-muted-foreground">
                 Discover our collection of React components built with Tailwind CSS and shadcn/ui
               </p>
             </div>
-          </Link>
+          </span>
           <Link href="/colors" className="group">
             <div className="p-4 border border-border rounded-lg hover:bg-accent/20 transition-colors">
               <h3 className="font-medium text-foreground group-hover:text-primary transition-colors mb-2">
@@ -216,7 +216,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                 Browse our carefully curated color palettes and design system tokens
               </p>
             </div>
-          </Link>
+          </span>
         </div>
       </section>
         </div>

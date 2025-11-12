@@ -8,9 +8,9 @@ import KanbanGlassForest from './kanban01';
 
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Spectrum UI-Kanban Board',
+  title: 'Aurion UI-Kanban Board',
   description:
-    'Spectrum UI Kanban Board is a drag-and-drop task management tool that allows users to organize tasks into columns, making it easy to visualize and manage workflows. It features a clean and modern design with customizable columns and tasks.',
+    'Aurion UI Kanban Board is a drag-and-drop task management tool that allows users to organize tasks into columns, making it easy to visualize and manage workflows. It features a clean and modern design with customizable columns and tasks.',
 });
 
 const KanbanBoard = () => {
@@ -18,7 +18,7 @@ const KanbanBoard = () => {
     <PageTemplate title="kanban Board">
       <PreviewCodeCard
         path="app/(docs)/docs/kanban/kanban01.tsx"
-        cli="@spectrumui/kanbanboard"
+        cli="@aurionui/kanbanboard"
       >
         <KanbanGlassForest />
       </PreviewCodeCard>
@@ -27,7 +27,7 @@ const KanbanBoard = () => {
         withInstall
         codePath="app/(docs)/docs/kanban/kanban01.tsx"
         withEnd
-        installScript="npx shadcn@latest add @spectrumui/kanbanboard"
+        installScript="npx shadcn@latest add @aurionui/kanbanboard"
       />
     </PageTemplate>
   );

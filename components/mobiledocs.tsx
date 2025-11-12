@@ -83,7 +83,7 @@ export default function Mobiledocs() {
                         NEW
                       </span>
                     )}
-                  </Link>
+                  </span>
                 ))}
               </CollapsibleContent>
             </Collapsible>

@@ -121,7 +121,7 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Spectrum UI",
+      name: "Aurion UI",
       url: siteConfig.url,
     },
     {
@@ -130,7 +130,7 @@ export const metadata: Metadata = {
     },
   ],
   creator: "Arihant Jain",
-  publisher: "Spectrum UI",
+  publisher: "Aurion UI",
   openGraph: {
     type: "website",
     locale: siteConfig.locale,
@@ -145,8 +145,8 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage.url],
-    creator: "@arihantcodes",
-    site: "@spectrumui",
+    creator: "",
+    site: "",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
   robots: {
@@ -189,7 +189,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
+              "@context": "",
               "@type": "WebSite",
               name: siteConfig.name,
               url: siteConfig.url,
@@ -217,9 +217,9 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
+              "@context": "",
               "@type": "Organization",
-              name: "Spectrum UI",
+              name: "Aurion UI",
               url: siteConfig.url,
               logo: `${siteConfig.url}/logo.svg`,
               description: siteConfig.description,
@@ -228,11 +228,7 @@ export default function RootLayout({
                 name: siteConfig.author.name,
                 url: siteConfig.author.url,
               },
-              sameAs: [
-                siteConfig.links.github,
-                siteConfig.links.twitter,
-                siteConfig.links.linkedin,
-              ],
+              sameAs: [],
             }),
           }}
         />
@@ -255,10 +251,10 @@ export default function RootLayout({
               href="/docs/profile"
               className="flex items-center justify-center"
             >
-              ✨ Introducing Spectrum CLI – Your favorite UI blocks, now just
+              ✨ Introducing Aurion CLI – Your favorite UI blocks, now just
               one command away.
               <ChevronRight className=" h-4 w-4 mt-1 ml-2 " />
-            </Link>
+            </span>
           </div> */}
 
           <SiteHeader />

@@ -46,7 +46,7 @@ export function RelatedComponents({
                 <ArrowRight className="h-4 w-4 opacity-0 transition-opacity group-hover:opacity-100" />
               </div>
             </Card>
-          </Link>
+          </span>
         ))}
       </div>
     </section>

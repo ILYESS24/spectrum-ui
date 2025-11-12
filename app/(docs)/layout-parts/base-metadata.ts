@@ -41,7 +41,7 @@ export function baseMetadata({
   twitter,
   article,
 }: BaseMetadataProps): Metadata {
-  const fullTitle = title ? `${title} - React UI Component | Spectrum UI` : siteConfig.name;
+  const fullTitle = title ? `${title} - React UI Component | Aurion UI` : siteConfig.name;
   const fullDescription = description || siteConfig.description;
   const url = canonicalUrl || siteConfig.url;
   
@@ -104,11 +104,11 @@ export function baseMetadata({
     description: fullDescription,
     keywords: seoKeywords,
     authors: [
-      { name: "Arihant Jain", url: "https://ui.spectrumhq.in/" },
-      { name: "Spectrum UI", url: siteConfig.url },
+      { name: "Arihant Jain", url: "" },
+      { name: "Aurion UI", url: siteConfig.url },
     ],
     creator: "Arihant Jain",
-    publisher: "Spectrum UI",
+    publisher: "Aurion UI",
     alternates: {
       canonical: url,
     },
@@ -136,7 +136,7 @@ export function baseMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      site: "@spectrumui",
+      site: "@aurionui",
       creator: "@arihantcodes",
       title: twitter?.title || fullTitle,
       description: twitter?.description || fullDescription,

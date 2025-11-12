@@ -10,7 +10,7 @@ import { baseMetadata } from "@/app/(docs)/layout-parts/base-metadata";
 import AnimatedCardDemo from "./animatedCarddemo";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Animated Card",
+  title: "Aurion UI-Animated Card",
   description:
     "An animated card component that showcases various tools and technologies.",
 });
@@ -20,7 +20,7 @@ const DualRangeSliderPage = () => {
     <PageTemplate title="Animated Card">
       <PreviewCodeCard
         path="app/(docs)/docs/animatedcard/animatedCarddemo.tsx"
-        cli="@spectrumui/animated-card"
+        cli="@aurionui/animated-card"
       >
         <AnimatedCardDemo />
       </PreviewCodeCard>

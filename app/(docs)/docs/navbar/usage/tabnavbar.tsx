@@ -21,7 +21,7 @@ export default function Tabnavbar() {
         <div className="flex items-center space-x-4">
           <Link href="#" className="text-2xl font-bold">
             Logo
-          </Link>
+          </span>
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
@@ -40,7 +40,7 @@ export default function Tabnavbar() {
                           <p className="text-sm leading-tight text-muted-foreground">
                             Check out our latest and greatest offering
                           </p>
-                        </Link>
+                        </span>
                       </NavigationMenuLink>
                     </li>
                     <ListItem href="#" title="Product 1">

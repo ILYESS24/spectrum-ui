@@ -14,7 +14,7 @@ import Floatingnavbar from "./usage/floatingnavbar";
 import Sidenavbar from "./usage/sidenav";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Navbar",
+  title: "Aurion UI-Navbar",
   description:
     "An enhancement slider that allows you to select a range of values.",
 });
@@ -24,7 +24,7 @@ const DualRangeSliderPage = () => {
     <PageTemplate title="Navbars">
       <PreviewCodeCard
         path="app/(docs)/docs/navbar/navbardemo.tsx"
-        cli="@spectrumui/navbar-demo"
+        cli="@aurionui/navbar-demo"
       >
         <Navbardemo />
       </PreviewCodeCard>
@@ -41,28 +41,28 @@ const DualRangeSliderPage = () => {
       <Usage
         title="Circular Navbar"
         path="app/(docs)/docs/navbar/usage/circular.tsx"
-        cli="@spectrumui/circular-navbar"
+        cli="@aurionui/circular-navbar"
       >
         <CircularNavbar />
       </Usage>
       <Usage
         title="Tab Navbar"
         path="app/(docs)/docs/navbar/usage/tabnavbar.tsx"
-        cli="@spectrumui/tab-navbar"
+        cli="@aurionui/tab-navbar"
       >
         <Tabnavbar />
       </Usage>
       <Usage
         title="Floating Navbar"
         path="app/(docs)/docs/navbar/usage/floatingnavbar.tsx"
-        cli="@spectrumui/floating-navbar"
+        cli="@aurionui/floating-navbar"
       >
         <Floatingnavbar />
       </Usage>
       <Usage
         title="Sidebar Navbar"
         path="app/(docs)/docs/navbar/usage/sidenav.tsx"
-        cli="@spectrumui/sidebar-navbar"
+        cli="@aurionui/sidebar-navbar"
       >
         <Sidenavbar />
       </Usage>

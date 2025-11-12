@@ -44,7 +44,7 @@ export function CardsPaymentMethod() {
               className="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-transparent p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary"
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns=""
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"

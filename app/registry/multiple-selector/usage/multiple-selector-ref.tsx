@@ -3,9 +3,9 @@ import React from "react";
 import MultipleSelector, {
   type MultipleSelectorRef,
   Option,
-} from "@/app/registry/spectrumui/multiple-selector-dependencies";
-import { LoadingButton } from "@/app/registry/spectrumui/loading-button-dependencies";
-import { toast } from "@/app/registry/spectrumui/use-toast";
+} from "@/app/registry/aurionui/multiple-selector-dependencies";
+import { LoadingButton } from "@/app/registry/aurionui/loading-button-dependencies";
+import { toast } from "@/app/registry/aurionui/use-toast";
 
 const OPTIONS: Option[] = [
   { label: "nextjs", value: "nextjs" },

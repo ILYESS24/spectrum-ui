@@ -24,7 +24,7 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url)
     const q = (searchParams.get("q") || "").trim().toLowerCase()
     const res = await fetch(
-      "https://restcountries.com/v3.1/all?fields=cca2,cca3,name,flag,flags,region",
+      "",
       { cache: "no-store" }
     )
 

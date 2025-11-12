@@ -316,7 +316,7 @@ export function LikeButton({ postId, initialLikes }: Props) {
 
 <p className="text-base font-normal dark:text-[#ededed] text-[#0A0A0A]">
         Server Components are a complete game-changer for React development. Use these patterns and you&apos;ll build 
-        faster, more maintainable apps with less code. Spectrum UI components work great with both Server and Client 
+        faster, more maintainable apps with less code. Aurion UI components work great with both Server and Client 
         Components, so you can use the right tool for each job.
       </p>
     </div>

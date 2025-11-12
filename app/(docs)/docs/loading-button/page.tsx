@@ -29,13 +29,13 @@ const LoadingButtonPage = () => {
       description="Display a button or a component that looks like a button with loading spinner. Everything is just the same as the button in shadcnui."
     >
       <ReferenceBorder>
-        <Reference href="https://www.radix-ui.com/themes/docs/components/button" />
-        <Reference href="https://ui.shadcn.com/docs/components/button" />
+        <Reference href="" />
+        <Reference href="" />
       </ReferenceBorder>
 
       <PreviewCodeCard
         path="app/(docs)/docs/loading-button/loading-button-demo.tsx"
-        cli="@spectrumui/loading-button-demo"
+        cli="@aurionui/loading-button-demo"
       >
         <LoadingButtonDemo />
       </PreviewCodeCard>
@@ -51,14 +51,14 @@ const LoadingButtonPage = () => {
       <PageSubTitle>Usage</PageSubTitle>
       <Usage
         path="app/(docs)/docs/loading-button/loading-button-usage.tsx"
-        cli="@spectrumui/loading-button-usage"
+        cli="@aurionui/loading-button-usage"
       >
         <LoadingButtonUsage />
       </Usage>
       <Usage
         title="asChild"
         path="app/(docs)/docs/loading-button/loading-button-as-child.tsx"
-        cli="@spectrumui/loading-button-as-child"
+        cli="@aurionui/loading-button-as-child"
       >
         <LoadingButtonAsChild />
       </Usage>

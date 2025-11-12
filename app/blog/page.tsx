@@ -17,7 +17,7 @@ const categories = [
 ];
 
 export const metadata: Metadata = {
-  title: 'Blog | Spectrum UI - UI Components & Design System',
+  title: 'Blog | Aurion UI - UI Components & Design System',
   description: 'Learn about UI components, React development, design systems, and frontend best practices. Expert insights on building scalable web applications with modern tools.',
   keywords: [
     'UI components blog',
@@ -35,20 +35,20 @@ export const metadata: Metadata = {
     'user interface',
     'frontend engineering',
   ].join(', '),
-  authors: [{ name: 'Arihant Jain', url: 'https://ui.spectrumhq.in' }],
+  authors: [{ name: 'Arihant Jain', url: '' }],
   creator: 'Arihant Jain',
-  publisher: 'Spectrum UI',
+  publisher: 'Aurion UI',
   openGraph: {
-    title: 'Blog | Spectrum UI - UI Components & Design System',
+    title: 'Blog | Aurion UI - UI Components & Design System',
     description: 'Learn about UI components, React development, design systems, and frontend best practices. Expert insights on building scalable web applications.',
-    url: 'https://ui.spectrumhq.in/blog',
-    siteName: 'Spectrum UI',
+    url: '',
+    siteName: 'Aurion UI',
     images: [
       {
-        url: 'https://ui.spectrumhq.in/og.png',
+        url: '',
         width: 1200,
         height: 630,
-        alt: 'Spectrum UI Blog - UI Components & Design System',
+        alt: 'Aurion UI Blog - UI Components & Design System',
       },
     ],
     locale: 'en_US',
@@ -56,13 +56,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blog | Spectrum UI - UI Components & Design System',
+    title: 'Blog | Aurion UI - UI Components & Design System',
     description: 'Learn about UI components, React development, design systems, and frontend best practices.',
     creator: '@arihantcodes',
-    images: ['https://ui.spectrumhq.in/og.png'],
+    images: [''],
   },
   alternates: {
-    canonical: 'https://ui.spectrumhq.in/blog',
+    canonical: '',
   },
   robots: {
     index: true,
@@ -85,7 +85,7 @@ export default async function BlogPage() {
     blogPosts.map((post) => post),
   );
 
-  const baseUrl = "https://ui.spectrumhq.in";
+  const baseUrl = "";
   
   // Generate structured data for blog listing
   const structuredData = generateBlogListingStructuredData(
@@ -158,7 +158,7 @@ export default async function BlogPage() {
       <div className="max-w-7xl mx-auto px-6 py-8">
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Spectrum UI Blog
+            Aurion UI Blog
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Learn about UI components, React development, design systems, and frontend best practices. 
@@ -207,7 +207,7 @@ export default async function BlogPage() {
                     <span className="text-sm text-muted-foreground">{post.author.name}</span>
                   </div>
                 </div>
-              </Link>
+              </span>
             ))}
           </div>
         )}
@@ -220,7 +220,7 @@ export default async function BlogPage() {
             Ready to Build Amazing UIs?
           </h2>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Explore our collection of React components and start building faster with Spectrum UI. 
+            Explore our collection of React components and start building faster with Aurion UI. 
             Copy, paste, and customize components for your Next.js applications.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -228,12 +228,12 @@ export default async function BlogPage() {
               <Button size="lg" className="w-full sm:w-auto">
                 Browse Components
               </Button>
-            </Link>
+            </span>
             <Link href="/colors">
               <Button variant="outline" size="lg" className="w-full sm:w-auto">
                 View Color Palette
               </Button>
-            </Link>
+            </span>
           </div>
         </div>
       </div>

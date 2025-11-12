@@ -14,7 +14,7 @@ const Cta = () => {
     <Button className="rounded-full text-sm">
     Let’s work together →
     </Button>
-    </Link>
+    </span>
    </div>
   );
 };

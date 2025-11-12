@@ -1,33 +1,22 @@
 <div align="center">
-  <h1>Spectrum UI</h1>
-<a href="https://x.com/arihantCodes">
-Follow Us on X
-</a>
-  
-</div>
-<div align="center">
-<br />
-<br />
-<a href="https://vercel.com/oss">
-  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
-</a>
+  <h1>Aurion UI</h1>
 </div>
 <br />
 
 
-![ui.spectrumhq.in](public/og.png)
+![ui.aurionhq.in](public/og.png)
 
 
-## Contributing to Spectrum UI
+## Contributing to Aurion UI
 
-Thank you for your interest in contributing to Spectrum UI! 🎉  
+Thank you for your interest in contributing to Aurion UI! 🎉  
 We value contributions from the community, whether it's a bug fix, a new feature, or an enhancement. Your input helps us grow and improve the library.
 
 ---
 
 ### How to Contribute
 
-Follow these steps to get started with contributing to Spectrum UI:
+Follow these steps to get started with contributing to Aurion UI:
 
 ---
 
@@ -42,8 +31,8 @@ Click the "Fork" button at the top-right of the repository page to create your o
 Clone your forked repository to your local machine:
 
 ```bash
-git clone https://github.com/arihantcodes/spectrum-ui.git
-cd spectrum-ui
+git clone <repository-url>
+cd aurion-ui
 ```
 
 ---
@@ -106,7 +95,7 @@ git push origin feature-name
 
 #### 9. **Create a Pull Request (PR)**
 
-- Go to the [Pull Requests](https://github.com/your-username/spectrum-ui/pulls) section of the original repository.
+- Go to the Pull Requests section of the original repository.
 - Click **"New Pull Request"**.
 - Select your branch and submit your PR.
 - Provide a clear description of your changes, including why they are beneficial.
@@ -115,16 +104,16 @@ git push origin feature-name
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=arihantcodes/spectrum-ui&type=Date)](https://www.star-history.com/#arihantcodes/spectrum-ui&Date)
+Star History Chart
 
 
 ### Contributors
 
-Thanks to all the amazing contributors who have helped improve Spectrum UI! 💖
+Thanks to all the amazing contributors who have helped improve Aurion UI! 💖
 
 <div align="center">
 
-![Contributors](https://contributors-img.web.app/image?repo=arihantcodes/spectrum-ui)
+Contributors
 
 </div>
 

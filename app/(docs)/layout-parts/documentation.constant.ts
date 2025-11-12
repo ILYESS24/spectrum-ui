@@ -19,7 +19,7 @@ export const DOCS: Documentation[] = [
       {
         label: 'Twitter @arihantcodes',
         value: 'Twitter @arihantcodes',
-        url: 'https://x.com/arihantCodes',
+        url: '',
       },
     ],
   },

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "$schema": "",
   "name": "datetime-picker-disabled",
   "type": "registry:component",
   "title": "Datetime Picker Disabled",
@@ -12,7 +12,7 @@
       "path": "app/registry/datetime-picker/usage/datetime-picker-disabled.tsx",
       "content": "\"use client\";\nimport React, { useState } from \"react\";\nimport { DateTimePicker } from \"@/components/ui/datetime-picker\";\n\nconst DatetimePickerDisabled = () => {\n  const [date, setDate] = useState<Date | undefined>(undefined);\n  return (\n    <DateTimePicker disabled value={date} onChange={setDate} className=\"w-72\" />\n  );\n};\n\nexport default DatetimePickerDisabled;\n",
       "type": "registry:component",
-      "target": "components/spectrumui/date-picker-disabled.tsx"
+      "target": "components/aurionui/date-picker-disabled.tsx"
     }
   ]
 }

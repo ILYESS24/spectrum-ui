@@ -7,9 +7,9 @@ import { baseMetadata } from '@/app/(docs)/layout-parts/base-metadata';
 import { AnimatedDrawer } from './demo';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Spectrum UI - Animated Drawer',
+  title: 'Aurion UI - Animated Drawer',
   description:
-    'Spectrum UI Animated Drawer is a component that allows you to create an animated drawer that can be used to display content.',
+    'Aurion UI Animated Drawer is a component that allows you to create an animated drawer that can be used to display content.',
 });
 
 const Loginpage = () => {
@@ -17,7 +17,7 @@ const Loginpage = () => {
     <PageTemplate title="Animated Drawer">
       <PreviewCodeCard
         path="app/(docs)/docs/animateddrawer/demo.tsx"
-        cli="@spectrumui/animated-drawer"
+        cli="@aurionui/animated-drawer"
       >
         <AnimatedDrawer />
       </PreviewCodeCard>

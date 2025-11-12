@@ -60,7 +60,7 @@ export const infiniteScrollProp: Props[] = [
         <p>
           Since InfiniteScroll is implemented with IntersectionObserver, you can
           find more on{" "}
-          <PropLink href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">
+          <PropLink href="">
             MDN
           </PropLink>
           .
@@ -83,7 +83,7 @@ export const infiniteScrollProp: Props[] = [
         <p>
           Since InfiniteScroll is implemented with IntersectionObserver, you can
           find more on{" "}
-          <PropLink href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">
+          <PropLink href="">
             MDN
           </PropLink>
           .
@@ -105,7 +105,7 @@ export const infiniteScrollProp: Props[] = [
         <p>
           Since InfiniteScroll is implemented with IntersectionObserver, you can
           find more on{" "}
-          <PropLink href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">
+          <PropLink href="">
             MDN
           </PropLink>
           .

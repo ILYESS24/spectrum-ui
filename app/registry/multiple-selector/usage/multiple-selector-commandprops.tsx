@@ -3,9 +3,9 @@ import React, { useState } from "react";
 
 import MultipleSelector, {
   Option,
-} from "@/app/registry/spectrumui/multiple-selector-dependencies";
+} from "@/app/registry/aurionui/multiple-selector-dependencies";
 
-import { InlineCode } from "@/app/registry/spectrumui/inline-code";
+import { InlineCode } from "@/app/registry/aurionui/inline-code";
 
 const OPTIONS: Option[] = [
   { label: "nextjs", value: "nextjs" },

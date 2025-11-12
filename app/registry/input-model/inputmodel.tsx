@@ -206,7 +206,7 @@ export default function InputModel() {
                     <Input
                       id="url-input"
                       type="url"
-                      placeholder="https://example.com/article or YouTube URL"
+                      placeholder=" or YouTube URL"
                       value={urlInput}
                       onChange={(e) => setUrlInput(e.target.value)}
                       className="w-full h-12 rounded-xl border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900"

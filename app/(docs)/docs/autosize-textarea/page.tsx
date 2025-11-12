@@ -17,7 +17,7 @@ import { InlineCode } from "@/components/ui/inline-code";
 import { P } from "@/components/ui/heading-with-anchor";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Autosize Textarea",
+  title: "Aurion UI-Autosize Textarea",
   description: "auto resize textarea height based on content.",
 });
 
@@ -29,7 +29,7 @@ const AutosizeTextareaPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/autosize-textarea/autosize-textarea-demo.tsx"
-        cli="@spectrumui/autosize-textarea-demo"
+        cli="@aurionui/autosize-textarea-demo"
       >
         <AutosizeTextareaDemo />
       </PreviewCodeCard>
@@ -45,21 +45,21 @@ const AutosizeTextareaPage = () => {
       <Usage
         title="Max height"
         path="app/(docs)/docs/autosize-textarea/usage/autosize-textarea-with-max-height.tsx"
-        cli="@spectrumui/autosize-textarea-max-height"
+        cli="@aurionui/autosize-textarea-max-height"
       >
         <AutosizeTextareaWithMaxHeight />
       </Usage>
       <Usage
         title="ref"
         path="app/(docs)/docs/autosize-textarea/usage/autosize-textarea-with-ref.tsx"
-        cli="@spectrumui/autosize-textarea-ref"
+        cli="@aurionui/autosize-textarea-ref"
       >
         <AutosizeTextareaWithRef />
       </Usage>
       <Usage
         title="Form"
         path="app/(docs)/docs/autosize-textarea/usage/autosize-textarea-form.tsx"
-        cli="@spectrumui/autosize-textarea-form"
+        cli="@aurionui/autosize-textarea-form"
       >
         <AutosizeTextareaForm />
       </Usage>
@@ -80,7 +80,7 @@ const AutosizeTextareaPage = () => {
           </>
         }
         path="app/(docs)/docs/autosize-textarea/usage/autosize-textarea-customize.tsx"
-        cli="@spectrumui/autosize-textarea-customize"
+        cli="@aurionui/autosize-textarea-customize"
       >
         <AutosizeTextareaCustomize />
       </Usage>

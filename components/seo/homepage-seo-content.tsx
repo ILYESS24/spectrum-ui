@@ -107,10 +107,10 @@ export function HomePageSEOContent() {
       <section className="space-y-6">
         <div className="text-center space-y-2">
           <h2 className="text-3xl font-bold tracking-tight">
-            Why Developers Choose Spectrum UI Over Other React UI Libraries
+            Why Developers Choose Aurion UI Over Other React UI Libraries
           </h2>
           <p className="text-muted-foreground">
-            See how Spectrum UI compares to popular alternatives like Material UI, Chakra UI, and shadcn/ui
+            See how Aurion UI compares to popular alternatives like Material UI, Chakra UI, and shadcn/ui
           </p>
         </div>
 
@@ -119,7 +119,7 @@ export function HomePageSEOContent() {
             <thead>
               <tr className="border-b bg-muted/50">
                 <th className="p-4 text-left font-semibold">Feature</th>
-                <th className="p-4 text-center font-semibold">Spectrum UI</th>
+                <th className="p-4 text-center font-semibold">Aurion UI</th>
                 <th className="p-4 text-center font-semibold">Material UI</th>
                 <th className="p-4 text-center font-semibold">Chakra UI</th>
                 <th className="p-4 text-center font-semibold">shadcn/ui</th>
@@ -245,7 +245,7 @@ export function HomePageSEOContent() {
           Start Building Beautiful React UIs Today
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Join thousands of developers using Spectrum UI to build modern web applications.
+          Join thousands of developers using Aurion UI to build modern web applications.
           Get started in minutes with our comprehensive documentation and examples.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -255,13 +255,13 @@ export function HomePageSEOContent() {
           >
             Get Started
             <ArrowRight className="ml-2 h-4 w-4" />
-          </Link>
+          </span>
           <Link
             href="/docs"
             className="inline-flex items-center justify-center rounded-lg border border-input bg-background px-6 py-3 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
           >
             Browse Components
-          </Link>
+          </span>
         </div>
       </section>
     </div>

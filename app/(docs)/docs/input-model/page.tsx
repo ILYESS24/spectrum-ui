@@ -7,7 +7,7 @@ import { baseMetadata } from '@/app/(docs)/layout-parts/base-metadata';
 import InputModel from './input-model';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Spectrum UI - Input Model',
+  title: 'Aurion UI - Input Model',
   description: 'An input model that allows you to select a range of values.',
 });
 
@@ -16,7 +16,7 @@ const DualRangeSliderPage = () => {
     <PageTemplate title="Input Model">
       <PreviewCodeCard
         path="app/(docs)/docs/input-model/input-model.tsx"
-        cli="@spectrumui/input-model"
+        cli="@aurionui/input-model"
       >
         <InputModel />
       </PreviewCodeCard>
@@ -26,7 +26,7 @@ const DualRangeSliderPage = () => {
         withInstall
         codePath="app/(docs)/docs/input-model/input-model.tsx"
         withEnd
-        installScript="npx shadcn@latest add @spectrumui/input-model"
+        installScript="npx shadcn@latest add @aurionui/input-model"
       />
     </PageTemplate>
   );

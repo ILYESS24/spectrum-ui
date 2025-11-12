@@ -9,7 +9,7 @@ import { ReloadableOrbital } from './reload/orbital';
 import { Steppers } from '@/components/ui/steppers';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Spectrum UI - Text Animations',
+  title: 'Aurion UI - Text Animations',
   description: 'A collection of animated text effects for enhancing UI interactions.',
 });
 
@@ -18,7 +18,7 @@ const Textanimation = () => {
     <PageTemplate title="Holographic Scan Reveal" className="mt-6">
       <PreviewCodeCard
         path="app/(docs)/docs/animatedtext/components/hologram-text.tsx"
-        cli="@spectrumui/holographic"
+        cli="@aurionui/holographic"
       >
         <ReloadableHologram />
       </PreviewCodeCard>
@@ -26,14 +26,14 @@ const Textanimation = () => {
         withInstall
         codePath="app/(docs)/docs/animatedtext/usage/holo.tsx"
         withEnd
-        installScript="npx shadcn@latest add @spectrumui/holographic"
+        installScript="npx shadcn@latest add @aurionui/holographic"
       />
 
       <PageSubTitle>Orbital Letters</PageSubTitle>
 
       <PreviewCodeCard
         path="app/(docs)/docs/animatedtext/components/orbital-text.tsx"
-        cli="@spectrumui/orbital-letters"
+        cli="@aurionui/orbital-letters"
       >
         <ReloadableOrbital />
       </PreviewCodeCard>
@@ -41,13 +41,13 @@ const Textanimation = () => {
         withInstall
         codePath="app/(docs)/docs/animatedtext/usage/orbital.tsx"
         withEnd
-        installScript="npx shadcn@latest add @spectrumui/orbital-letters"
+        installScript="npx shadcn@latest add @aurionui/orbital-letters"
       />
       <PageSubTitle>Fluid Ink Morph</PageSubTitle>
 
       <PreviewCodeCard
         path="app/(docs)/docs/animatedtext/components/ink-morph.tsx"
-        cli="@spectrumui/ink-morph"
+        cli="@aurionui/ink-morph"
       >
         <ReloadableInk />
       </PreviewCodeCard>
@@ -55,7 +55,7 @@ const Textanimation = () => {
         withInstall
         codePath="app/(docs)/docs/animatedtext/usage/ink.tsx"
         withEnd
-        installScript="npx shadcn@latest add @spectrumui/ink-morph"
+        installScript="npx shadcn@latest add @aurionui/ink-morph"
       />
     </PageTemplate>
   );

@@ -109,7 +109,7 @@ export const PricingButton: React.FC<{ label: string; productId: string }> = ({
         >
           {label}
         </button>
-      </Link>
+      </span>
     </div>
   );
 };
@@ -232,7 +232,7 @@ export const KeyIcon: React.FC<{ className?: string; color: Color }> = ({
       height="26"
       viewBox="0 0 26 26"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns=""
     >
       <path
         d="M14.9998 14.9999L17.9998 17.9999L24.9998 10.9999L14.9998 0.999878L7.99976 7.99988L10.9998 10.9999L0.999756 20.9999V24.9999H6.99976V20.9999H10.9998V18.9999L14.9998 14.9999Z"
@@ -282,7 +282,7 @@ export const FreeCardHighlight: React.FC<{ className: string }> = ({
       height="356"
       viewBox="0 0 263 356"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns=""
     >
       <g opacity="0.4">
         <g
@@ -670,7 +670,7 @@ export const ProCardHighlight: React.FC<{ className: string }> = ({
       height="356"
       viewBox="0 0 263 356"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns=""
     >
       <g opacity="0.4">
         <g
@@ -1058,7 +1058,7 @@ export const EnterpriseCardHighlight: React.FC<{ className: string }> = ({
       height="336"
       viewBox="0 0 379 336"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns=""
     >
       <g opacity="0.4">
         <g
@@ -1459,7 +1459,7 @@ export const BelowEnterpriseSvg: React.FC<{ className?: string }> = ({
       height="638"
       viewBox="0 0 472 638"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns=""
     >
       <g opacity="0.4">
         <g

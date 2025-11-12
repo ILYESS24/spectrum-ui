@@ -17,7 +17,7 @@ export const Chart = () => (
         "dark:bg-neutral-950 bg-white dark:bg-grid-neutral-700 bg-grid-neutral-200"
       }
     >
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 653 465">
+      <svg xmlns="" viewBox="0 0 653 465">
         <motion.path
           transition={{ delay: 0.3 }}
           initial={{ opacity: 0 }}

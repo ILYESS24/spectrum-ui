@@ -91,7 +91,7 @@ export default function GitHubProfileCard() {
     setError(null);
 
     try {
-      const response = await fetch(`https://api.github.com/users/${username}`);
+      const response = await fetch(`);
 
       if (!response.ok) {
         if (response.status === 404) {
@@ -195,19 +195,19 @@ export default function GitHubProfileCard() {
   };
 
   const shareToTwitter = () => {
-    const text = `I have generated my GitHub card from Spectrum UI! 🚀\n\nGenerate yours: ${window.location.href}\n\n#GitHub #SpectrumUI #Developer`;
-    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
+    const text = `I have generated my GitHub card from Aurion UI! 🚀\n\nGenerate yours: ${window.location.href}\n\n#GitHub #AurionUI #Developer`;
+    const url = `)}`;
     window.open(url, "_blank");
   };
 
   const shareToLinkedIn = () => {
-    const text = `I have generated my GitHub card from Spectrum UI! Check out this amazing tool to showcase your GitHub profile.`;
-    const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}&summary=${encodeURIComponent(text)}`;
+    const text = `I have generated my GitHub card from Aurion UI! Check out this amazing tool to showcase your GitHub profile.`;
+    const url = `)}&summary=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
   };
 
   const copyToClipboard = () => {
-    const text = `I have generated my GitHub card from Spectrum UI! Generate yours: ${window.location.href}`;
+    const text = `I have generated my GitHub card from Aurion UI! Generate yours: ${window.location.href}`;
     navigator.clipboard.writeText(text);
     alert("Link copied to clipboard!");
   };
@@ -255,7 +255,7 @@ export default function GitHubProfileCard() {
         <meta property="og:type" content="website" />
         <meta
           property="og:site_name"
-          content="Spectrum UI - GitHub Profile Cards"
+          content="Aurion UI - GitHub Profile Cards"
         />
 
         {/* Twitter Card Tags */}
@@ -347,7 +347,7 @@ export default function GitHubProfileCard() {
                 <div className="flex space-x-4">
                   {userData.twitter_username && (
                     <a
-                      href={`https://twitter.com/${userData.twitter_username}`}
+                      href={`
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 hover:bg-neutral-100 dark:hover:bg-neutral-900 rounded-lg transition-colors"
@@ -368,7 +368,7 @@ export default function GitHubProfileCard() {
                       href={
                         userData.blog.startsWith("http")
                           ? userData.blog
-                          : `https://${userData.blog}`
+                          : `
                       }
                       target="_blank"
                       rel="noopener noreferrer"
@@ -497,7 +497,7 @@ export default function GitHubProfileCard() {
                   Share Your GitHub Card
                 </h3>
                 <p className="text-sm text-neutral-600 dark:text-neutral-400">
-                  I have generated my GitHub card from Spectrum UI! Generate
+                  I have generated my GitHub card from Aurion UI! Generate
                   yours and showcase your profile.
                 </p>
               </div>

@@ -10,7 +10,7 @@ export default function CrispChat() {
         process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID;
 
       const script = document.createElement("script");
-      script.src = "https://client.crisp.chat/l.js";
+      script.src = "";
       script.async = true;
       document.head.appendChild(script);
     }

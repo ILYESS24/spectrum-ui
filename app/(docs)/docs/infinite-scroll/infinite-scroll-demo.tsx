@@ -46,7 +46,7 @@ const InfiniteScrollDemo = () => {
      **/
     setTimeout(async () => {
       const res = await fetch(
-        `https://dummyjson.com/products?limit=3&skip=${3 * page}&select=title,price`,
+        ` * page}&select=title,price`,
       );
       const data = (await res.json()) as DummyProductResponse;
       setProducts((prev) => [...prev, ...data.products]);

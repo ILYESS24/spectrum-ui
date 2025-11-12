@@ -488,7 +488,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             >
               <a href="#">
                 <Icons.logo />
-                <span className="text-base font-semibold">Spectrum UI</span>
+                <span className="text-base font-semibold">Aurion UI</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -2827,7 +2827,7 @@ function VehicleCard({ vehicle, isSelected }: VehicleCardProps): JSX.Element {
                 height="16"
                 viewBox="0 0 24 24"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns=""
                 className="mr-1"
               >
                 <path
@@ -2847,7 +2847,7 @@ function VehicleCard({ vehicle, isSelected }: VehicleCardProps): JSX.Element {
                 height="16"
                 viewBox="0 0 24 24"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns=""
                 className="mr-1"
               >
                 <path
@@ -2914,7 +2914,7 @@ export default function BlocksPageDemo() {
     <div className="container-wrapper h-full p-12">
       <div className="w-full flex justify-end mb-12 ">
         <Link
-          href="https://shadcnblocks.com"
+          href=""
           className="hidden md:flex items-center gap-2 bg-neutral-100 dark:bg-neutral-800 rounded-md px-5 h-12  hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
         >
           <Icons.shadcnblock className="h-5 w-5" />
@@ -2924,7 +2924,7 @@ export default function BlocksPageDemo() {
               600+ extra shadcn blocks
             </span>
           </div>
-        </Link>
+        </span>
       </div>
       <BlocksPage
         title="A Newsletter Dashboard"

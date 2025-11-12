@@ -2,7 +2,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 
 interface ComparisonItem {
   feature: string;
-  spectrum: string | boolean;
+  aurion: string | boolean;
   others?: string | boolean;
 }
 
@@ -32,14 +32,14 @@ export function ComponentComparison({
         {componentName} Comparison
       </h2>
       <p className="mb-4 text-sm text-muted-foreground">
-        See how Spectrum UI {componentName} compares to {comparisonWith}
+        See how Aurion UI {componentName} compares to {comparisonWith}
       </p>
       <div className="overflow-x-auto rounded-lg border">
         <Table>
           <TableHeader>
             <TableRow>
               <TableHead className="font-semibold">Feature</TableHead>
-              <TableHead className="font-semibold">Spectrum UI</TableHead>
+              <TableHead className="font-semibold">Aurion UI</TableHead>
               <TableHead className="font-semibold">{comparisonWith}</TableHead>
             </TableRow>
           </TableHeader>
@@ -48,7 +48,7 @@ export function ComponentComparison({
               <TableRow key={index}>
                 <TableCell className="font-medium">{item.feature}</TableCell>
                 <TableCell className="text-green-600 dark:text-green-400">
-                  {formatValue(item.spectrum)}
+                  {formatValue(item.aurion)}
                 </TableCell>
                 <TableCell className="text-muted-foreground">
                   {item.others ? formatValue(item.others) : "—"}

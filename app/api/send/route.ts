@@ -1,7 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY!);
+const getResend = () => {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    throw new Error("RESEND_API_KEY is not configured");
+  }
+  return new Resend(apiKey);
+};
 
 const rateLimitStore = new Map();
 const RATE_LIMIT_TIME_FRAME = 15 * 60 * 1000; // 15 minutes
@@ -58,6 +64,7 @@ export async function POST(request: NextRequest) {
       screenshotBase64 = Buffer.from(bytes).toString("base64");
     }
 
+    const resend = getResend();
     await resend.emails.send({
       from: "onboarding@resend.dev",
       to: process.env.EMAIL || "arihantjain7000@gmail.com",

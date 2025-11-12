@@ -16,7 +16,7 @@ import { PropsTable } from "@/app/(docs)/docs/components/props-table/props-table
 import { spinnerProp } from "@/app/(docs)/docs/spinner/spinner-prop";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Spinner",
+  title: "Aurion UI-Spinner",
   description: "A simple spinner for displaying loading state",
 });
 
@@ -28,7 +28,7 @@ const SpinnerPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/spinner/spinner-demo.tsx"
-        cli="@spectrumui/spinner-demo"
+        cli="@aurionui/spinner-demo"
       >
         <SpinnerDemo />
       </PreviewCodeCard>
@@ -40,14 +40,14 @@ const SpinnerPage = () => {
       <Usage
         title="Size"
         path="app/(docs)/docs//spinner/usage/spinner-size.tsx"
-        cli="@spectrumui/spinner-size"
+        cli="@aurionui/spinner-size"
       >
         <SpinnerSize />
       </Usage>
       <Usage
         title="With text and custom style"
         path="app/(docs)/docs//spinner/usage/spinner-with-text.tsx"
-        cli="@spectrumui/spinner-with-text"
+        cli="@aurionui/spinner-with-text"
       >
         <SpinnerWithText />
       </Usage>
@@ -55,7 +55,7 @@ const SpinnerPage = () => {
       <Usage
         title="Toggle spinner"
         path="app/(docs)/docs//spinner/usage/spinner-toggle.tsx"
-        cli="@spectrumui/spinner-toggle"
+        cli="@aurionui/spinner-toggle"
       >
         <SpinnerToggle />
       </Usage>

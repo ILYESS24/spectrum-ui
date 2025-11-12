@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "$schema": "",
   "name": "datetime-picker-demo",
   "type": "registry:component",
   "title": "Datetime Picker Demo",
@@ -12,7 +12,7 @@
       "path": "app/registry/datetime-picker/datetime-picker-demo.tsx",
       "content": "\"use client\";\nimport React, { useState } from \"react\";\nimport { DateTimePicker } from \"@/components/ui/datetime-picker\";\n\nconst DatetimePickerDemo = () => {\n  const [date, setDate] = useState<Date | undefined>(undefined);\n  return (\n    <DateTimePicker\n      value={date}\n      onChange={setDate}\n      className=\"w-[280px]\"\n      locale={undefined}\n      weekStartsOn={undefined}\n      showWeekNumber={undefined}\n      showOutsideDays={undefined}\n    />\n  );\n};\n\nexport default DatetimePickerDemo;\n",
       "type": "registry:component",
-      "target": "components/spectrumui/autosize-textarea-customize.tsx"
+      "target": "components/aurionui/autosize-textarea-customize.tsx"
     }
   ]
 }

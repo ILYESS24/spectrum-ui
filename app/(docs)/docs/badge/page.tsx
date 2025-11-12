@@ -9,7 +9,7 @@ import { baseMetadata } from "@/app/(docs)/layout-parts/base-metadata";
 import EventBadge from "./badgedemo";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI- 3D Event Badge",
+  title: "Aurion UI- 3D Event Badge",
   description:
     "An enhancement slider that allows you to select a range of values.",
 });
@@ -19,7 +19,7 @@ const DualRangeSliderPage = () => {
     <PageTemplate title="Vercel 3D Event Badge">
       <PreviewCodeCard
         path="app/(docs)/docs/badge/badgedemo.tsx"
-        cli="@spectrumui/event-badge-3d"
+        cli="@aurionui/event-badge-3d"
       >
         <EventBadge />
       </PreviewCodeCard>

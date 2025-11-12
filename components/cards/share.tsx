@@ -36,7 +36,7 @@ export function CardsShare() {
           </Label>
           <Input
             id="link"
-            value="http://example.com/link/to/document"
+            value=""
             readOnly
           />
           <Button className="shrink-0">Copy Link</Button>

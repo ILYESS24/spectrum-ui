@@ -16,7 +16,7 @@ export const Reference = ({ icon, text, ...props }: ReferenceProps) => {
         {icon}
         {text}
       </Badge>
-    </Link>
+    </span>
   );
 };
 

@@ -59,7 +59,7 @@ const PrivacyPolicyPage = () => {
             us at jainari1208@gmail.com
           </p>
           <Button variant="outline">
-            <a href="https://x.com/arihantcodes" target="_blank">
+            <a href="" target="_blank">
               Contact Support
             </a>
           </Button>

@@ -16,8 +16,8 @@ export function MainNav() {
           <Icons.logo className="h-5 w-5 text-black " />
         </div>
 
-        <span className=" font-bold lg:inline-block">Spectrum UI</span>
-      </Link>
+        <span className=" font-bold lg:inline-block">Aurion UI</span>
+      </span>
       <nav className=" items-center gap-4 text-sm xl:gap-6 hidden md:flex">
         <Link
           href="/docs/installation"
@@ -27,7 +27,7 @@ export function MainNav() {
           )}
         >
           Docs
-        </Link>
+        </span>
 
         <Link
           href="/blocks"
@@ -37,13 +37,13 @@ export function MainNav() {
           )}
         >
           Blocks
-        </Link>
+        </span>
         <Link href="/blog" className={cn(
           'transition-colors hover:text-foreground/80',
           pathname === '/blog' ? 'text-foreground' : 'text-foreground/80',
         )}>
           Blogs
-        </Link>
+        </span>
 
         <Link
           href="/colors"
@@ -53,19 +53,7 @@ export function MainNav() {
           )}
         >
           Colors
-        </Link>
-        <Link
-          href="https://json.spectrumhq.in/"
-          className={cn(
-            'transition-colors hover:text-foreground/80',
-          
-          )}
-        >
-          Api Testing
-          <span className="text-xs ml-1  px-1.5 py-0.5 rounded-full  bg-yellow-400/30 dark:bg-[#eaec8a]/16 text-yellow-600 dark:text-[#eaec8a] [text-shadow:0_1px_1.5px_rgb(0,0,0,0.16)]">
-            New
-          </span>
-        </Link>
+        </span>
       </nav>
     </div>
   );

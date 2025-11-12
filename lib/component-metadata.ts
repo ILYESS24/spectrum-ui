@@ -12,7 +12,7 @@ export interface ComponentMetadata {
   useCases: string[];
   advantages: string[];
   faqs: Array<{ question: string; answer: string }>;
-  comparison?: Array<{ feature: string; spectrum: string | boolean; others?: string | boolean }>;
+  comparison?: Array<{ feature: string; aurion: string | boolean; others?: string | boolean }>;
   relatedComponents?: string[];
 }
 
@@ -72,12 +72,12 @@ export const componentMetadata: Record<string, ComponentMetadata> = {
       },
     ],
     comparison: [
-      { feature: "Accessibility", spectrum: true, others: "Varies" },
-      { feature: "TypeScript Support", spectrum: true, others: true },
-      { feature: "Keyboard Navigation", spectrum: true, others: "Limited" },
-      { feature: "Animation Support", spectrum: true, others: "Optional" },
-      { feature: "Copy & Paste", spectrum: true, others: false },
-      { feature: "Customization", spectrum: "Full", others: "Limited" },
+      { feature: "Accessibility", aurion: true, others: "Varies" },
+      { feature: "TypeScript Support", aurion: true, others: true },
+      { feature: "Keyboard Navigation", aurion: true, others: "Limited" },
+      { feature: "Animation Support", aurion: true, others: "Optional" },
+      { feature: "Copy & Paste", aurion: true, others: false },
+      { feature: "Customization", aurion: "Full", others: "Limited" },
     ],
     relatedComponents: ["card", "tabs", "collapsible", "responsive-modal"],
   },
@@ -132,11 +132,11 @@ export const componentMetadata: Record<string, ComponentMetadata> = {
       },
     ],
     comparison: [
-      { feature: "Variants", spectrum: "6+", others: "3-4" },
-      { feature: "Loading State", spectrum: true, others: "Manual" },
-      { feature: "Icon Support", spectrum: true, others: "Limited" },
-      { feature: "Accessibility", spectrum: true, others: true },
-      { feature: "Size Options", spectrum: "4", others: "2-3" },
+      { feature: "Variants", aurion: "6+", others: "3-4" },
+      { feature: "Loading State", aurion: true, others: "Manual" },
+      { feature: "Icon Support", aurion: true, others: "Limited" },
+      { feature: "Accessibility", aurion: true, others: true },
+      { feature: "Size Options", aurion: "4", others: "2-3" },
     ],
     relatedComponents: ["loading-button", "input", "card", "modal"],
   },
@@ -191,11 +191,11 @@ export const componentMetadata: Record<string, ComponentMetadata> = {
       },
     ],
     comparison: [
-      { feature: "Composability", spectrum: true, others: "Limited" },
-      { feature: "Image Optimization", spectrum: true, others: false },
-      { feature: "Dark Mode", spectrum: true, others: "Manual" },
-      { feature: "Variants", spectrum: "Multiple", others: "1-2" },
-      { feature: "Accessibility", spectrum: true, others: true },
+      { feature: "Composability", aurion: true, others: "Limited" },
+      { feature: "Image Optimization", aurion: true, others: false },
+      { feature: "Dark Mode", aurion: true, others: "Manual" },
+      { feature: "Variants", aurion: "Multiple", others: "1-2" },
+      { feature: "Accessibility", aurion: true, others: true },
     ],
     relatedComponents: ["button", "badge", "avatar", "skeleton"],
   },
@@ -244,9 +244,9 @@ export const componentMetadata: Record<string, ComponentMetadata> = {
       },
     ],
     comparison: [
-      { feature: "Variants", spectrum: "4+", others: "2-3" },
-      { feature: "Icons", spectrum: true, others: "Manual" },
-      { feature: "Accessibility", spectrum: true, others: "Varies" },
+      { feature: "Variants", aurion: "4+", others: "2-3" },
+      { feature: "Icons", aurion: true, others: "Manual" },
+      { feature: "Accessibility", aurion: true, others: "Varies" },
     ],
     relatedComponents: ["toast", "badge", "skeleton"],
   },
@@ -295,10 +295,10 @@ export const componentMetadata: Record<string, ComponentMetadata> = {
       },
     ],
     comparison: [
-      { feature: "Focus Management", spectrum: true, others: "Manual" },
-      { feature: "Responsive", spectrum: true, others: "Limited" },
-      { feature: "Animations", spectrum: true, others: "Optional" },
-      { feature: "Accessibility", spectrum: true, others: "Varies" },
+      { feature: "Focus Management", aurion: true, others: "Manual" },
+      { feature: "Responsive", aurion: true, others: "Limited" },
+      { feature: "Animations", aurion: true, others: "Optional" },
+      { feature: "Accessibility", aurion: true, others: "Varies" },
     ],
     relatedComponents: ["drawer", "popover", "alert"],
   },
@@ -347,9 +347,9 @@ export const componentMetadata: Record<string, ComponentMetadata> = {
       },
     ],
     comparison: [
-      { feature: "Mobile Menu", spectrum: true, others: "Manual" },
-      { feature: "Dropdowns", spectrum: true, others: "Limited" },
-      { feature: "Responsive", spectrum: true, others: true },
+      { feature: "Mobile Menu", aurion: true, others: "Manual" },
+      { feature: "Dropdowns", aurion: true, others: "Limited" },
+      { feature: "Responsive", aurion: true, others: true },
     ],
     relatedComponents: ["sidebar", "breadcrumb", "dropdown"],
   },

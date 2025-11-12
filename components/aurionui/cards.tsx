@@ -665,13 +665,13 @@ export default function CardCollection() {
           <div className="flex items-center space-x-4">
             <Avatar>
               <AvatarImage
-                src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+                src=""
                 alt="@arihantcodes"
               />
               <AvatarFallback>SU</AvatarFallback>
             </Avatar>
             <div>
-              <CardTitle>Spectrum UI</CardTitle>
+              <CardTitle>Aurion UI</CardTitle>
               <CardDescription>@arihantcodes</CardDescription>
             </div>
           </div>
@@ -1230,7 +1230,7 @@ function QuickNoteCard() {
       </CardHeader>
       <CardContent className="p-4 pt-0 flex items-center space-x-4">
         <Avatar>
-          <AvatarImage src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg" />
+          <AvatarImage src="" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <div>
@@ -1562,13 +1562,13 @@ export function ProfileCard() {
         <div className="flex items-center space-x-4">
           <Avatar>
             <AvatarImage
-              src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
+              src=""
               alt="@arihantcodes"
             />
             <AvatarFallback>SU</AvatarFallback>
           </Avatar>
           <div>
-            <CardTitle>Spectrum UI</CardTitle>
+            <CardTitle>Aurion UI</CardTitle>
             <CardDescription>@arihantcodes</CardDescription>
           </div>
         </div>
@@ -2244,7 +2244,7 @@ export function QuickContactCard() {
       </CardHeader>
       <CardContent className="p-4 pt-0 flex items-center space-x-4">
         <Avatar>
-          <AvatarImage src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg" />
+          <AvatarImage src="" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <div>

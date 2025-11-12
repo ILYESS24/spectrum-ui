@@ -15,7 +15,7 @@ export default function NotFound() {
             <ArrowLeft className="h-4 w-4 mr-2" />
             Back to Blog
           </Button>
-        </Link>
+        </span>
       </div>
     </div>
   );

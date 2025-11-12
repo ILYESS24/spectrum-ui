@@ -1,7 +1,7 @@
 import { ROUTES } from "./routes-config";
 
 /**
- * SEO utility functions for Spectrum UI
+ * SEO utility functions for Aurion UI
  */
 
 // Component categories for better organization and SEO
@@ -55,17 +55,17 @@ export function generateComponentStructuredData(component: {
   features?: string[];
 }) {
   return {
-    "@context": "https://schema.org",
+    "@context": "",
     "@type": "SoftwareSourceCode",
     name: `${component.name} - React Component`,
     description: component.description,
     programmingLanguage: "TypeScript",
     runtimePlatform: "React",
-    codeRepository: "https://github.com/arihantcodes/spectrum-ui",
+    codeRepository: "",
     author: {
       "@type": "Person",
       name: "Arihant Jain",
-      url: "https://ui.spectrumhq.in",
+      url: "",
     },
     about: {
       "@type": "Thing",
@@ -85,7 +85,7 @@ export function generateComponentStructuredData(component: {
 // Generate breadcrumb structured data
 export function generateBreadcrumbStructuredData(items: Array<{ name: string; url: string }>) {
   return {
-    "@context": "https://schema.org",
+    "@context": "",
     "@type": "BreadcrumbList",
     itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
@@ -99,7 +99,7 @@ export function generateBreadcrumbStructuredData(items: Array<{ name: string; ur
 // Generate FAQ structured data
 export function generateFAQStructuredData(faqs: Array<{ question: string; answer: string }>) {
   return {
-    "@context": "https://schema.org",
+    "@context": "",
     "@type": "FAQPage",
     mainEntity: faqs.map(faq => ({
       "@type": "Question",
@@ -177,7 +177,7 @@ export function generateBlogStructuredData(blogPost: {
   category: string;
 }) {
   return {
-    "@context": "https://schema.org",
+    "@context": "",
     "@type": "BlogPosting",
     headline: blogPost.title,
     description: blogPost.description,
@@ -188,16 +188,16 @@ export function generateBlogStructuredData(blogPost: {
     author: {
       "@type": "Person",
       name: blogPost.author.name,
-      image: blogPost.author.avatar || "https://ui.spectrumhq.in/arihant.jpeg",
-      url: "https://ui.spectrumhq.in",
+      image: blogPost.author.avatar || "",
+      url: "",
     },
     publisher: {
       "@type": "Organization",
-      name: "Spectrum UI",
-      url: "https://ui.spectrumhq.in",
+      name: "Aurion UI",
+      url: "",
       logo: {
         "@type": "ImageObject",
-        url: "https://ui.spectrumhq.in/logo.svg",
+        url: "",
       },
     },
     mainEntityOfPage: {
@@ -226,17 +226,17 @@ export function generateBlogStructuredData(blogPost: {
       {
         "@type": "SoftwareApplication",
         name: "React",
-        url: "https://reactjs.org",
+        url: "",
       },
       {
         "@type": "SoftwareApplication", 
         name: "Next.js",
-        url: "https://nextjs.org",
+        url: "",
       },
       {
         "@type": "SoftwareApplication",
         name: "Tailwind CSS",
-        url: "https://tailwindcss.com",
+        url: "",
       },
     ],
   };
@@ -245,7 +245,7 @@ export function generateBlogStructuredData(blogPost: {
 // Generate blog breadcrumb structured data
 export function generateBlogBreadcrumbs(items: Array<{ name: string; url: string }>) {
   return {
-    "@context": "https://schema.org",
+    "@context": "",
     "@type": "BreadcrumbList",
     itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
@@ -265,18 +265,18 @@ export function generateBlogListingStructuredData(posts: Array<{
   author: { name: string };
 }>) {
   return {
-    "@context": "https://schema.org",
+    "@context": "",
     "@type": "Blog",
-    name: "Spectrum UI Blog",
-    description: "Learn about UI components, React development, and design systems with Spectrum UI",
-    url: "https://ui.spectrumhq.in/blog",
+    name: "Aurion UI Blog",
+    description: "Learn about UI components, React development, and design systems with Aurion UI",
+    url: "",
     publisher: {
       "@type": "Organization",
-      name: "Spectrum UI",
-      url: "https://ui.spectrumhq.in",
+      name: "Aurion UI",
+      url: "",
       logo: {
         "@type": "ImageObject",
-        url: "https://ui.spectrumhq.in/logo.svg",
+        url: "",
       },
     },
     blogPost: posts.map(post => ({

@@ -12,7 +12,7 @@ const page = () => {
       <PageTemplate title="Animated Testimonials" className="mt-5">
         <PreviewCodeCard
           path="app/(docs)/docs/animatedtestimonials/usages/demousages.tsx"
-          cli="@spectrumui/animated-testimonials"
+          cli="@aurionui/animated-testimonials"
         >
           <AnimatedTestimonialsDemo />
         </PreviewCodeCard>
@@ -35,9 +35,9 @@ const page = () => {
           <h1>Credits</h1>
           <p>
             This component is inspired by{" "}
-            <Link href="https://www.youtube.com/watch?v=c1A4rSvQR44&t=529s">
+            <Link href="">
               Aceternity UI ❤️
-            </Link>
+            </span>
           </p>
         </div>
       </PageTemplate>

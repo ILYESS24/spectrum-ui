@@ -68,7 +68,7 @@ interface MultipleSelectorProps {
    * First item selected is a default behavior by cmdk. That is why the default is true.
    * This is a workaround solution by add a dummy item.
    *
-   * @reference: https://github.com/pacocoursey/cmdk/issues/171
+   * @reference: 
    */
   selectFirstItem?: boolean;
   /** Allow user to create option when there is no option matched. */
@@ -152,7 +152,7 @@ function isOptionsExist(groupOption: GroupOption, targetOption: Option[]) {
  * The `CommandEmpty` of shadcn/ui will cause the cmdk empty not rendering correctly.
  * So we create one and copy the `Empty` implementation from `cmdk`.
  *
- * @reference: https://github.com/hsuanyi-chou/shadcn-ui-expansions/issues/34#issuecomment-1949561607
+ * @reference: 
  **/
 const CommandEmpty = forwardRef<
   HTMLDivElement,

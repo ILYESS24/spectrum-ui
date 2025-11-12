@@ -15,7 +15,7 @@ const page = () => {
       <PageTemplate title="Animated Alert" className="mt-5">
         <PreviewCodeCard
           path="app/(docs)/docs/alert/alertdemo.tsx"
-          cli="@spectrumui/alert-1"
+          cli="@aurionui/alert-1"
         >
           <Alertdemo />
         </PreviewCodeCard>
@@ -34,19 +34,19 @@ const page = () => {
 
         <Usage
           path="app/(docs)/docs/alert/usage/alertthree.tsx"
-          cli="@spectrumui/alert-2"
+          cli="@aurionui/alert-2"
         >
           <Alert02 />
         </Usage>
         <Usage
           path="app/(docs)/docs/alert/usage/alertthree.tsx"
-          cli="@spectrumui/alert-3"
+          cli="@aurionui/alert-3"
         >
           <Alert03 />
         </Usage>
         <Usage
           path="app/(docs)/docs/alert/usage/alertfour.tsx"
-          cli="@spectrumui/alert-4"
+          cli="@aurionui/alert-4"
         >
           <Alert04 />
         </Usage>

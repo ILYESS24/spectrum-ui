@@ -168,7 +168,7 @@ export function NotFound() {
               className="inline-block bg-[#222222] text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-[#000000] transition-colors font-dm-sans select-none"
             >
               Back to Home
-            </Link>
+            </span>
           </motion.div>
         </motion.div>
       </AnimatePresence>

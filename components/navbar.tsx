@@ -23,7 +23,7 @@ export function SiteHeader() {
           <div className="ml-auto flex items-center gap-2 md:flex-1 md:justify-end">
             {pathname !== '/blocks' && (
               <Link
-                href="https://shadcnblocks.com"
+                href=""
                 className="hidden md:flex items-center gap-2 bg-neutral-100 border dark:bg-secondary rounded-md px-5 h-9 hover:bg-neutral-200 dark:hover:bg-secondary/80 transition-colors"
               >
                 <Icons.shadcnblock className="h-4 w-4" />
@@ -33,25 +33,25 @@ export function SiteHeader() {
                     [ 600+ extra shadcn blocks]
                   </p>
                 </div>
-              </Link>
+              </span>
             )}
             <Link
-              href="https://github.com/sponsors/arihantcodes"
+              href=""
               className="hidden md:flex items-center gap-2 bg-neutral-100 border dark:bg-secondary rounded-md px-5 h-9 hover:bg-neutral-200 dark:hover:bg-secondary/80 transition-colors"
             >
 
               <div className="flex flex-col xl:flex-row gap-3 items-center">
                 <p className="text-sm font-medium hidden lg:block">Sponsor</p>
               </div>
-            </Link>
+            </span>
 
             <div className="hidden md:flex items-center gap-2">
               <Link href={siteConfig.links.github} target="_blank" rel="noopener noreferrer">
                 <Icons.gitHub className="h-5 w-4 mr-2" />
-              </Link>
+              </span>
               <Link href={siteConfig.links.twitter} target="_blank" rel="noopener noreferrer">
                 <Icons.twitter className="h-3 w-4 mr-2" />
-              </Link>
+              </span>
             </div>
 
             <nav className="flex items-center gap-0.5">

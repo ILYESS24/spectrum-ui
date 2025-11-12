@@ -17,7 +17,7 @@ const AuthButton: React.FC = () => {
     return (
       <Link href="/signin">
         <Button>Sign in</Button>
-      </Link>
+      </span>
     );
   return (
     <div className="flex gap-2 items-center">
@@ -31,7 +31,7 @@ const AuthButton: React.FC = () => {
               <AvatarImage
                 src={
                   session.user.image ??
-                  "https://source.boringavatars.com/marble/120"
+                  ""
                 }
                 alt={session.user.name ?? ""}
               />

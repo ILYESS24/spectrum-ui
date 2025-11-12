@@ -14,7 +14,7 @@ export function HeroContent() {
   const [star, setStar] = useState(0);
   const fetchGithubData = () => {
     axios
-      .get('https://api.github.com/repos/arihantcodes/spectrum-ui')
+      .get('')
       .then((response) => {
         const star = response.data.stargazers_count;
         setStar(star);
@@ -52,7 +52,7 @@ export function HeroContent() {
               <Button size="lg" className="rounded-2xl w-full sm:w-auto px-8">
                 Explore Components
               </Button>
-            </Link>
+            </span>
 
             <div className="w-full sm:w-auto">
               <Link target="_blank" href={siteConfig.links.github}>
@@ -67,7 +67,7 @@ export function HeroContent() {
                     <NumberTicker value={star} className="font-display" />
                   </div>
                 </Button>
-              </Link>
+              </span>
             </div>
           </div>
         </AnimateEnter>

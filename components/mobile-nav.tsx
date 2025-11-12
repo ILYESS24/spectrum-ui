@@ -213,7 +213,7 @@ export function MobileNav() {
             strokeWidth="1.5"
             viewBox="0 0 24 24"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns=""
             className="size-5"
           >
             <path
@@ -250,8 +250,8 @@ export function MobileNav() {
           className="flex items-center h-16 px-4 border-b border-border"
         >
           <Icons.logo className="mr-2 size-4" />
-          <span className="font-semibold">Spectrum UI</span>
-        </Link>
+          <span className="font-semibold">Aurion UI</span>
+        </span>
         <ScrollArea className="h-[calc(100vh-4rem)] flex-1">
           <div className="flex flex-col space-y-4 p-4">
             {/* Main Navigation */}
@@ -349,7 +349,7 @@ function MobileLink({
         {...props}
       >
         {children}
-      </Link>
+      </span>
     </SheetClose>
   );
 }

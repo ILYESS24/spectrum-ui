@@ -98,7 +98,7 @@ export default function EnhancedSidebar() {
                        
                         </span>
                       )}
-                    </Link>
+                    </span>
                   ))}
                 </CollapsibleContent>
               </Collapsible>

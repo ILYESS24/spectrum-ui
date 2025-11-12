@@ -2,7 +2,7 @@ export function Spotlight() {
   return (
     <svg
       className="pointer-events-none absolute z-[2] hidden h-[200%] w-[130%] animate-spotlight opacity-0 dark:md:block xl:-left-5 xl:-top-60 xl:w-[200%] [@media(max-height:800px)]:left-16 [@media(max-height:800px)]:h-[220%]"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns=""
       viewBox="0 0 3787 2842"
       fill="none"
     >

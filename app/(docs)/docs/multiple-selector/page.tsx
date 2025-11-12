@@ -35,7 +35,7 @@ import MultipleSelectorHideClearAll from "@/app/(docs)/docs/multiple-selector/us
 import MultipleSelectorWithSyncSearch from "@/app/(docs)/docs/multiple-selector/usage/multiple-selector-with-sync-search";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Multiple Selector",
+  title: "Aurion UI-Multiple Selector",
   description:
     "Fast,composable, fully-featured multiple selector for React. such as async search with debounce, maximum selected count, grouping, creatable selector ...etc.",
 });
@@ -48,7 +48,7 @@ const MultipleSelectorPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/multiple-selector/multiple-selector-demo.tsx"
-        cli="@spectrumui/multiple-selector-demo"
+        cli="@aurionui/multiple-selector-demo"
       >
         <MultipleSelectorDemo />
       </PreviewCodeCard>
@@ -66,11 +66,11 @@ const MultipleSelectorPage = () => {
               <>
                 <P className="leading-relaxed text-muted-foreground">
                   Thanks to{" "}
-                  <PropLink href="https://github.com/njdowdy">
+                  <PropLink href="">
                     @njdowdy
                   </PropLink>{" "}
                   for the{" "}
-                  <PropLink href="https://github.com/hsuanyi-chou/shadcn-ui-expansions/issues/57#issuecomment-1997767639">
+                  <PropLink href="">
                     short-term workaround
                   </PropLink>
                   . This is related to <InlineCode>Command</InlineCode>{" "}
@@ -102,29 +102,29 @@ const MultipleSelectorPage = () => {
       <Usage
         title="Disable Option"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-disable-option.tsx"
-        cli="@spectrumui/multiple-selector-with-disable-option"
+        cli="@aurionui/multiple-selector-with-disable-option"
       >
         <MultipleSelectorWithDisabledOption />
       </Usage>
       <Usage
         title="Disabled"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-disabled.tsx"
-        cli="@spectrumui/multiple-selector-disabled"
+        cli="@aurionui/multiple-selector-disabled"
       >
         <MultipleSelectorDisabled />
       </Usage>
       <Usage
         title="Disable First Item selected"
-        cli="@spectrumui/multiple-selector-no-default-select"
+        cli="@aurionui/multiple-selector-no-default-select"
         description={
           <>
             <P className="text-muted-foreground">
               The first item selected is a default behavior by{" "}
-              <PropLink href="https://github.com/pacocoursey/cmdk">
+              <PropLink href="">
                 <InlineCode>cmdk</InlineCode>
               </PropLink>{" "}
               and there is no way to control it. You can learn more about the{" "}
-              <PropLink href="https://github.com/pacocoursey/cmdk/issues/171">
+              <PropLink href="">
                 <InlineCode>issue</InlineCode>
               </PropLink>
               .
@@ -141,14 +141,14 @@ const MultipleSelectorPage = () => {
       <Usage
         title="Controlled Component"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-controlled.tsx"
-        cli="@spectrumui/multiple-selector-controlled"
+        cli="@aurionui/multiple-selector-controlled"
       >
         <MultipleSelectorControlled />
       </Usage>
       <Usage
         title="Hide Clear All Button"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-hide-clear-all.tsx"
-        cli="@spectrumui/multiple-selector-hide-clear-all"
+        cli="@aurionui/multiple-selector-hide-clear-all"
       >
         <MultipleSelectorHideClearAll />
       </Usage>
@@ -160,7 +160,7 @@ const MultipleSelectorPage = () => {
           </P>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-creatable.tsx"
-        cli="@spectrumui/multiple-selector-creatable"
+        cli="@aurionui/multiple-selector-creatable"
       >
         <MultipleSelectorCreatable />
       </Usage>
@@ -186,7 +186,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-async-search.tsx"
-        cli="@spectrumui/multiple-selector-with-async-search"
+        cli="@aurionui/multiple-selector-with-async-search"
       >
         <MultipleSelectorWithAsyncSearch />
       </Usage>
@@ -208,7 +208,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-async-search-and-onfocus.tsx"
-        cli="@spectrumui/multiple-selector-with-async-search-and-onfocus"
+        cli="@aurionui/multiple-selector-with-async-search-and-onfocus"
       >
         <MultipleSelectorWithAsyncSearchAndOnFocus />
       </Usage>
@@ -223,7 +223,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-async-search-and-creatable.tsx"
-        cli="@spectrumui/multiple-selector-with-async-search-and-creatable"
+        cli="@aurionui/multiple-selector-with-async-search-and-creatable"
       >
         <MultipleSelectorWithAsyncSearchAndCreatable />
       </Usage>
@@ -238,7 +238,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-async-search-and-creatable-and-group.tsx"
-        cli="@spectrumui/multiple-selector-with-async-search-and-creatable-and-group"
+        cli="@aurionui/multiple-selector-with-async-search-and-creatable-and-group"
       >
         <MultipleSelectorWithAsyncSearchAndCreatableAndGroup />
       </Usage>
@@ -257,7 +257,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-sync-search.tsx"
-        cli="@spectrumui/multiple-selector-with-sync-search"
+        cli="@aurionui/multiple-selector-with-sync-search"
       >
         <MultipleSelectorWithSyncSearch />
       </Usage>
@@ -277,7 +277,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-manually-controlled-options.tsx"
-        cli="@spectrumui/multiple-selector-manually-controlled-options"
+        cli="@aurionui/multiple-selector-manually-controlled-options"
       >
         <MultipleSelectorManuallyControlledOptions />
       </Usage>
@@ -292,7 +292,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-group.tsx"
-        cli="@spectrumui/multiple-selector-with-group"
+        cli="@aurionui/multiple-selector-with-group"
       >
         <MultipleSelectorWithGroup />
       </Usage>
@@ -305,7 +305,7 @@ const MultipleSelectorPage = () => {
           </P>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-max-selected.tsx"
-        cli="@spectrumui/multiple-selector-max-selected"
+        cli="@aurionui/multiple-selector-max-selected"
       >
         <MultipleSelectorWithMaxSelected />
       </Usage>
@@ -317,7 +317,7 @@ const MultipleSelectorPage = () => {
           </P>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-max-text-length.tsx"
-        cli="@spectrumui/multiple-selector-max-text-length"
+        cli="@aurionui/multiple-selector-max-text-length"
       >
         <MultipleSelectorMaxTextLength />
       </Usage>
@@ -336,7 +336,7 @@ const MultipleSelectorPage = () => {
           </>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-no-placeholder-when-selected.tsx"
-        cli="@spectrumui/multiple-selector-no-placeholder-when-selected"
+        cli="@aurionui/multiple-selector-no-placeholder-when-selected"
       >
         <MultipleSelectorNoPlaceholderWhenSelected />
       </Usage>
@@ -349,28 +349,28 @@ const MultipleSelectorPage = () => {
           </P>
         }
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-fixed-option.tsx"
-        cli="@spectrumui/multiple-selector-fixed-option"
+        cli="@aurionui/multiple-selector-fixed-option"
       >
         <MultipleSelectorWithFixedOption />
       </Usage>
       <Usage
         title="ref"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-ref.tsx"
-        cli="@spectrumui/multiple-selector-ref"
+        cli="@aurionui/multiple-selector-ref"
       >
         <MultipleSelectorRef />
       </Usage>
       <Usage
         title="CommandProps and CommandInputProps Customization"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-commandprops.tsx"
-        cli="@spectrumui/multiple-selector-commandprops"
+        cli="@aurionui/multiple-selector-commandprops"
       >
         <MultipleSelectorCommandProps />
       </Usage>
       <Usage
         title="Form"
         path="app/(docs)/docs//multiple-selector/usage/multiple-selector-with-form.tsx"
-        cli="@spectrumui/multiple-selector-with-form"
+        cli="@aurionui/multiple-selector-with-form"
       >
         <MultipleSelectorWithForm />
       </Usage>

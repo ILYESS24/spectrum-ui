@@ -11,7 +11,7 @@ import { baseMetadata } from "@/app/(docs)/layout-parts/base-metadata";
 import StatusDemo from "./statusdemo";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI- Status Badge",
+  title: "Aurion UI- Status Badge",
   description:
     "An enhancement slider that allows you to select a range of values.",
 });
@@ -20,7 +20,7 @@ const DualRangeSliderPage = () => {
   return (
     <PageTemplate title="Status Badge">
       <PreviewCodeCard
-        cli="@spectrumui/status-badge"
+        cli="@aurionui/status-badge"
         path="app/(docs)/docs/status-badge/statusdemo.tsx"
       >
         <StatusDemo />

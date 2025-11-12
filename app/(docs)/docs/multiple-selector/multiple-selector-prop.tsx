@@ -256,7 +256,7 @@ export const multipleSelectorProp: Props[] = [
       <>
         <p>
           First item selected is a default behavior by{" "}
-          <PropLink href="https://github.com/pacocoursey/cmdk">
+          <PropLink href="">
             <InlineCode>cmdk</InlineCode>
           </PropLink>
           . That is why the default is <InlineCode>true</InlineCode>.
@@ -264,7 +264,7 @@ export const multipleSelectorProp: Props[] = [
         <p>This is a workaround solution by add a dummy item.</p>
         <p>
           Learn more about the{" "}
-          <PropLink href="https://github.com/pacocoursey/cmdk/issues/171">
+          <PropLink href="">
             <InlineCode>issue</InlineCode>
           </PropLink>
           .

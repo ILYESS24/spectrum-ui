@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "Spectrum UI - Best React UI Component Library for Next.js",
-  url: "https://ui.spectrumhq.in",
+  name: "Aurion UI - Best React UI Component Library for Next.js",
+  url: "https://ui.aurionhq.in",
   ogImage: {
-    url: "https://ui.spectrumhq.in/og.png",
+    url: "https://ui.aurionhq.in/og.png",
     width: 1200,
     height: 630,
-    alt: "Spectrum UI - React UI Components Library for Next.js with Tailwind CSS",
+    alt: "Aurion UI - React UI Components Library for Next.js with Tailwind CSS",
   },
   description:
     "The best React UI component library for Next.js. 250+ beautifully designed, accessible components built with Tailwind CSS and TypeScript. Copy, paste, and ship faster. Perfect for dashboards, SaaS, and modern web applications. Free and open source alternative to shadcn/ui, Material UI, and Chakra UI.",
@@ -17,7 +17,7 @@ export const siteConfig = {
     "UI library",
     "design system",
     "modern UI components",
-    "Spectrum UI",
+    "Aurion UI",
     
     // Next.js Keywords
     "Next.js components",
@@ -172,34 +172,34 @@ export const siteConfig = {
     "Next.js 14 app router components",
   ],
   links: {
-    twitter: "https://x.com/arihantcodes",
-    github: "https://github.com/arihantcodes/spectrum-ui",
-    linkedin: "https://www.linkedin.com/in/arihantcodes",
-    instagram: "https://www.instagram.com/arihantjainn18",
-    discord: "https://discord.gg/spectrum-ui", // Add if you have one
+    twitter: "",
+    github: "",
+    linkedin: "",
+    instagram: "",
+    discord: "",
   },
   author: {
     name: "Arihant Jain",
-    url: "https://ui.spectrumhq.in",
-    twitter: "@arihantcodes",
-    github: "arihantcodes",
+    url: "",
+    twitter: "",
+    github: "",
   },
   creator: {
     name: "Arihant Jain",
-    url: "https://ui.spectrumhq.in",
+    url: "",
   },
   locale: "en-US",
   version: "1.0.0",
   license: "MIT",
   repository: {
     type: "git",
-    url: "https://github.com/arihantcodes/spectrum-ui",
+    url: "",
   },
   // Enhanced SEO metadata
   seo: {
     title: {
-      default: "Spectrum UI - Beautiful React Components",
-      template: "%s | Spectrum UI",
+      default: "Aurion UI - Beautiful React Components",
+      template: "%s | Aurion UI",
     },
     robots: {
       index: true,
@@ -236,13 +236,13 @@ export const siteConfig = {
   // Social media handles
   social: {
     twitter: {
-      handle: "@arihantcodes",
-      site: "@spectrumui",
+      handle: "",
+      site: "",
       cardType: "summary_large_image",
     },
     github: {
-      username: "arihantcodes",
-      repository: "spectrum-ui",
+      username: "",
+      repository: "",
     },
   },
   // Analytics and tracking
@@ -252,8 +252,8 @@ export const siteConfig = {
   },
   // Manifest data for PWA
   manifest: {
-    name: "Spectrum UI",
-    shortName: "SpectrumUI",
+    name: "Aurion UI",
+    shortName: "AurionUI",
     description: "Beautiful React components for modern web applications",
     startUrl: "/",
     display: "standalone",
@@ -297,7 +297,7 @@ export const navigation = {
     {
       title: "Documentation",
       href: "/docs",
-      description: "Learn how to use Spectrum UI",
+      description: "Learn how to use Aurion UI",
     },
     {
       title: "Templates",

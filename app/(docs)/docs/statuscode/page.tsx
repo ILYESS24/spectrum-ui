@@ -9,7 +9,7 @@ const page = () => {
       <PageTemplate title="HTTP Status Code" className="mt-5">
         <PreviewCodeCard
           path="app/(docs)/docs/statuscode/demostatus.tsx"
-          cli="@spectrumui/http-status-code"
+          cli="@aurionui/http-status-code"
         >
           <Ststuscodelist />
         </PreviewCodeCard>

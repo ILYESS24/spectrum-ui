@@ -12,7 +12,7 @@ import { PropsTable } from "@/app/(docs)/docs/components/props-table/props-table
 import { infiniteScrollProp } from "@/app/(docs)/docs/infinite-scroll/infinite-scroll-prop";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Infinite Scroll",
+  title: "Aurion UI-Infinite Scroll",
   description:
     "Simple infinite scroll component. You have fully control over the loading spinner and IntersectionObserver API.",
 });
@@ -25,7 +25,7 @@ const InfiniteScrollPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/infinite-scroll/infinite-scroll-demo.tsx"
-        cli="@spectrumui/infinite-scroll-demo"
+        cli="@aurionui/infinite-scroll-demo"
       >
         <InfiniteScrollDemo />
       </PreviewCodeCard>

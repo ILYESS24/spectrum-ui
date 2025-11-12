@@ -13,7 +13,7 @@ export default function IntroductionPage() {
     <div className="max-w-4xl mx-auto space-y-12 py-8">
       {/* Hero Section */}
       <div className="space-y-4">
-        <h1 className="text-4xl font-bold tracking-tight">Spectrum UI</h1>
+        <h1 className="text-4xl font-bold tracking-tight">Aurion UI</h1>
         <p className="text-xl text-muted-foreground">
           Beautifully designed components built with Aceternity UI ,ShadCN UI
           and MAGIC UI a that you can copy and paste into your apps. Accessible.
@@ -23,13 +23,13 @@ export default function IntroductionPage() {
           <Button asChild>
             <Link href="/docs/installation">
               Get Started <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
+            </span>
           </Button>
           <Button variant="outline" asChild>
-            <Link href="https://github.com/arihantcodes/spectrum-ui">
+            <Link href="">
               <Github className="mr-2 h-4 w-4" />
               GitHub
-            </Link>
+            </span>
           </Button>
         </div>
       </div>
@@ -39,26 +39,26 @@ export default function IntroductionPage() {
         <h2 className="text-3xl font-bold tracking-tight">Introduction</h2>
         <div className="text-muted-foreground space-y-4">
           <p>
-            Spectrum UI is a collection of re-usable components built using{" "}
+            Aurion UI is a collection of re-usable components built using{" "}
             <Link
-              href="https://ui.aceternity.com/"
+              href=""
               className="font-medium underline underline-offset-4"
             >
               Aceternity UI
-            </Link>{" "}
+            </span>{" "}
             <Link
-              href="https://magicui.design/"
+              href=""
               className="font-medium underline underline-offset-4"
             >
               Magic UI
-            </Link>{" "}
+            </span>{" "}
             and{" "}
             <Link
-              href="https://ui.shadcn.com"
+              href=""
               className="font-medium underline underline-offset-4"
             >
               ShadCN UI
-            </Link>{" "}
+            </span>{" "}
             that you can copy and paste into your apps.
           </p>
           <div className="grid gap-4 md:grid-cols-2">
@@ -67,7 +67,7 @@ export default function IntroductionPage() {
                 What do you mean by copy and paste?
               </h3>
               <p>
-                Spectrum UI is not a component library. It&apos;s a collection
+                Aurion UI is not a component library. It&apos;s a collection
                 of re-usable components that you can copy and paste into your
                 projects.
               </p>
@@ -92,7 +92,7 @@ export default function IntroductionPage() {
           <AccordionItem value="item-1">
             <AccordionTrigger>Is this a component library?</AccordionTrigger>
             <AccordionContent>
-              No. Spectrum UI is not a component library. It&apos;s a collection
+              No. Aurion UI is not a component library. It&apos;s a collection
               of re-usable components that you can copy and paste into your
               projects.
             </AccordionContent>
@@ -127,39 +127,39 @@ export default function IntroductionPage() {
         <p className="text-muted-foreground gap-4">
           Built with{" "}
           <Link
-            href="https://ui.aceternity.com/"
+            href=""
             className="font-medium underline underline-offset-4 mr-2"
           >
             Aceternity UI
-          </Link>
+          </span>
           ,{" "}
           <Link
-            href="https://magicui.design/"
+            href=""
             className="font-medium underline underline-offset-4"
           >
             Magic UI
-          </Link>
+          </span>
           ,{" "}
           <Link
-            href="https://ui.shadcn.com"
+            href=""
             className="font-medium underline underline-offset-4"
           >
             ShadCN UI
-          </Link>
+          </span>
           ,{" "}
           <Link
-            href="https://nextjs.org"
+            href=""
             className="font-medium underline underline-offset-4"
           >
             Next.js
-          </Link>
+          </span>
           , and{" "}
           <Link
-            href="https://www.typescriptlang.org"
+            href=""
             className="font-medium underline underline-offset-4"
           >
             TypeScript
-          </Link>
+          </span>
           .
         </p>
       </div>

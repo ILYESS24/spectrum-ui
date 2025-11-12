@@ -44,12 +44,12 @@ const DatetimePickerPage = () => {
       description="A datetime picker built on top of shadcn-ui and no additional library needed."
     >
       <ReferenceBorder>
-        <Reference href="https://ui.shadcn.com/docs/components/calendar" />
+        <Reference href="" />
       </ReferenceBorder>
 
       <PreviewCodeCard
         path="app/(docs)/docs/datetime-picker/datetime-picker-demo.tsx"
-        cli="@spectrumui/datetime-picker-demo"
+        cli="@aurionui/datetime-picker-demo"
       >
         <DatetimePickerDemo />
       </PreviewCodeCard>
@@ -67,14 +67,14 @@ const DatetimePickerPage = () => {
       <Usage
         title="Hour cycle - 12H / 24H"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-hour-cycle.tsx"
-        cli="@spectrumui/datetime-picker-hour-cycle"
+        cli="@aurionui/datetime-picker-hour-cycle"
       >
         <DatetimePickerHourCycle />
       </Usage>
       <Usage
         title="Date picker or Time picker"
         path="app/(docs)/docs/datetime-picker/usage/date-picker-and-time-input.tsx"
-        cli="@spectrumui/datetime-picker-and-time-input"
+        cli="@aurionui/datetime-picker-and-time-input"
       >
         <DatePickerAndTimeInput />
       </Usage>
@@ -83,7 +83,7 @@ const DatetimePickerPage = () => {
         title="Year Dropdown Range"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-year-range.tsx"
         description={<YearDropdownDesc />}
-        cli="@spectrumui/datetime-picker-year-range"
+        cli="@aurionui/datetime-picker-year-range"
       >
         <DatetimePickerYearRange />
       </Usage>
@@ -91,12 +91,12 @@ const DatetimePickerPage = () => {
       <Usage
         title="Locale"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-locale.tsx"
-        cli="@spectrumui/datetime-picker-locale"
+        cli="@aurionui/datetime-picker-locale"
         description={
           <>
             <P className="text-muted-foreground">
               Import locale from{" "}
-              <PropLink href="https://date-fns.org/v3.6.0/docs/I18n-Contribution-Guide">
+              <PropLink href="">
                 <InlineCode>date-fns</InlineCode>
               </PropLink>
             </P>
@@ -109,7 +109,7 @@ const DatetimePickerPage = () => {
       <Usage
         title="Week start on Monday, Show week number, Disable outside days"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-calendar-settings.tsx"
-        cli="@spectrumui/datetime-picker-calendar-settings"
+        cli="@aurionui/datetime-picker-calendar-settings"
       >
         <DatetimePickerCalendarSettings />
       </Usage>
@@ -117,12 +117,12 @@ const DatetimePickerPage = () => {
       <Usage
         title="Display Format"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-display-format.tsx"
-        cli="@spectrumui/datetime-picker-display-format"
+        cli="@aurionui/datetime-picker-display-format"
         description={
           <>
             <P className="text-muted-foreground">
               Visit{" "}
-              <PropLink href="https://date-fns.org/v3.6.0/docs/format">
+              <PropLink href="">
                 <InlineCode>date-fns</InlineCode>
               </PropLink>{" "}
               to customize the format.
@@ -136,7 +136,7 @@ const DatetimePickerPage = () => {
       <Usage
         title="Placeholder"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-placeholder.tsx"
-        cli="@spectrumui/datetime-picker-placeholder"
+        cli="@aurionui/datetime-picker-placeholder"
       >
         <DatetimePickerPlaceholder />
       </Usage>
@@ -144,7 +144,7 @@ const DatetimePickerPage = () => {
       <Usage
         title="Granularity"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-granularity.tsx"
-        cli="@spectrumui/datetime-picker-granularity"
+        cli="@aurionui/datetime-picker-granularity"
       >
         <DatetimePickerGranularity />
       </Usage>
@@ -152,7 +152,7 @@ const DatetimePickerPage = () => {
       <Usage
         title="Disabled"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-disabled.tsx"
-        cli="@spectrumui/datetime-picker-disabled"
+        cli="@aurionui/datetime-picker-disabled"
       >
         <DatetimePickerDisabled />
       </Usage>
@@ -160,7 +160,7 @@ const DatetimePickerPage = () => {
       <Usage
         title="Ref"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-ref.tsx"
-        cli="@spectrumui/datetime-picker-ref"
+        cli="@aurionui/datetime-picker-ref"
       > 
         <DatetimePickerRef />
       </Usage>
@@ -168,7 +168,7 @@ const DatetimePickerPage = () => {
       <Usage
         title="Form"
         path="app/(docs)/docs/datetime-picker/usage/datetime-picker-form.tsx"
-        cli="@spectrumui/datetime-picker-form"
+        cli="@aurionui/datetime-picker-form"
       >
         <DatetimePickerForm />
       </Usage>

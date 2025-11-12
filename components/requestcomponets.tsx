@@ -27,7 +27,7 @@ const ShineButton = () => {
           height="16"
           viewBox="0 0 24 24"
           width="16"
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns=""
         >
           <path
             d="M10.75 8.75L14.25 12L10.75 15.25"
@@ -97,7 +97,7 @@ const RequestForm = () => {
               name="url"
               type="url"
               className="bg-black border-gray-800 focus:border-gray-700"
-              placeholder="spectrumui.arihant.us"
+              placeholder="aurionui.arihant.us"
             />
           </div>
 

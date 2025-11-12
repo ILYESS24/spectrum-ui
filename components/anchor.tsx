@@ -29,6 +29,6 @@ export default function Anchor({
   return (
     <Link className={cn(className, isMatch && activeClassName)} {...props}>
       {children}
-    </Link>
+    </span>
   );
 }

@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 export function Fomo() {
   return (
     <Link
-      href="https://vercel.com/oss?utm_source=ikiform"
+      href=""
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -37,6 +37,6 @@ export function Fomo() {
           <ArrowRight className="h-4 w-4 ml-2" />
         </FomoButton>
       </div>
-    </Link>
+    </span>
   );
 }

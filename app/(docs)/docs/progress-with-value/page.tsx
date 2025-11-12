@@ -28,11 +28,11 @@ const DualRangeSliderPage = () => {
       description="A progress bar that displays the current value."
     >
       <ReferenceBorder>
-        <Reference href="https://www.radix-ui.com/themes/docs/components/progress" />
+        <Reference href="" />
       </ReferenceBorder>
       <PreviewCodeCard
         path="app/(docs)/docs/progress-with-value/progress-with-value-demo.tsx"
-        cli="@spectrumui/progress-with-value"
+        cli="@aurionui/progress-with-value"
       >
         <ProgressWithValueDemo />
       </PreviewCodeCard>
@@ -49,14 +49,14 @@ const DualRangeSliderPage = () => {
       <Usage
         title="Value Position"
         path="app/(docs)/docs/progress-with-value/usage/progress-with-value-position.tsx"
-        cli="@spectrumui/value-position"
+        cli="@aurionui/value-position"
       >
         <ProgressWithValuePosition />
       </Usage>
       <Usage
         title="Custom Label"
         path="app/(docs)/docs/progress-with-value/usage/progress-with-value-label.tsx"
-        cli="@spectrumui/custom-label"
+        cli="@aurionui/custom-label"
       >
         <ProgressWithValueLabel />
       </Usage>

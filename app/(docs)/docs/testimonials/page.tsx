@@ -8,8 +8,8 @@ import { baseMetadata } from '@/app/(docs)/layout-parts/base-metadata';
 import Testimonial from './testimonialsdemo';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Spectrum UI - Testimonials',
-  description: 'Spectrum UI Testimonials - Real feedback from real users',
+  title: 'Aurion UI - Testimonials',
+  description: 'Aurion UI Testimonials - Real feedback from real users',
 });
 
 const DualRangeSliderPage = () => {
@@ -17,7 +17,7 @@ const DualRangeSliderPage = () => {
     <PageTemplate title="Testimonials" className='mt-5'>
       <PreviewCodeCard
         path="app/(docs)/docs/testimonials/testimonialsdemo.tsx"
-        cli="@spectrumui/testimonials"
+        cli="@aurionui/testimonials"
       >
         <Testimonial />
       </PreviewCodeCard>
@@ -27,7 +27,7 @@ const DualRangeSliderPage = () => {
         withInstall
         codePath="app/(docs)/docs/testimonials/testimonialsdemo.tsx"
         withEnd
-        installScript="npx shadcn@latest add @spectrumui/testimonials"
+        installScript="npx shadcn@latest add @aurionui/testimonials"
       />
 
      

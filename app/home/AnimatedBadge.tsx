@@ -14,7 +14,7 @@ export function AnimatedBadge() {
 
   return (
     <Link
-      href="https://vercel.com/oss"
+      href=""
       className="group relative outline-none block rounded-full py-[5px] pr-3 pl-1.5 bg-[#eeeeee] dark:bg-[#161616] dark:shadow-inner dark:shadow-neutral-800/80 border border-neutral-400/20 dark:border-neutral-700/70"
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
@@ -90,6 +90,6 @@ export function AnimatedBadge() {
         animate={!isHover ? { opacity: 0 } : {}}
         transition={{ duration: 0.7 }}
       />
-    </Link>
+    </span>
   );
 }

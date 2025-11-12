@@ -9,7 +9,7 @@ export default function Component() {
         {/* Header */}
         <div className="space-y-1">
           <div className="text-sm ">Installation</div>
-          <h1 className="text-2xl font-bold">Spectrum UI</h1>
+          <h1 className="text-2xl font-bold">Aurion UI</h1>
           <p className="">Install and configure Next.js.</p>
         </div>
 
@@ -18,7 +18,7 @@ export default function Component() {
           <p className="text-sm">
             If you&apos;re using Next.js 15, see the{" "}
             <a
-              href="https://ui.shadcn.com/docs/react-19"
+              href=""
               className="text-blue-400 hover:underline"
             >
               Next.js 15 + React 19 guide

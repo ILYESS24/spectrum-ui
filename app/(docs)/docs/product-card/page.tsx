@@ -11,7 +11,7 @@ import Productcard from "./product-card";
 
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI - Product Card",
+  title: "Aurion UI - Product Card",
   description:
     "A product card component that displays product information including image, title, description, price, and rating.",
 });
@@ -21,7 +21,7 @@ const DualRangeSliderPage = () => {
     <PageTemplate title="Product Card">
       <PreviewCodeCard
         path="app/(docs)/docs/product-card/product-card.tsx"
-        cli="@spectrumui/product-card"
+        cli="@aurionui/product-card"
       >
         <Productcard />
       </PreviewCodeCard>
@@ -31,7 +31,7 @@ const DualRangeSliderPage = () => {
         withInstall
         codePath="app/(docs)/docs/product-card/product-card.tsx"
         withEnd
-        installScript="npx shadcn@latest add @spectrumui/product-card"
+        installScript="npx shadcn@latest add @aurionui/product-card"
       />
 
      

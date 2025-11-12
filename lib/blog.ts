@@ -1,5 +1,5 @@
 import type React from "react"
-import spectrumUiDevelopmentSpeed from "@/content/blog/spectrum-ui-development-speed"
+import aurionUiDevelopmentSpeed from "@/content/blog/aurion-ui-development-speed"
 import shadcnCustomizationGuide from "@/content/blog/shadcn-customization-guide"
 import nextjsServerComponentsGuide from "@/content/blog/nextjs-server-components-guide"
 import commonUiUxMistakes from "@/content/blog/common-ui-ux-mistakes"
@@ -22,9 +22,9 @@ export interface BlogPost {
 }
 
 const blogPosts: Record<string, BlogPost> = {
-  "spectrum-ui-development-speed": {
-    slug: "spectrum-ui-development-speed",
-    ...spectrumUiDevelopmentSpeed,
+  "aurion-ui-development-speed": {
+    slug: "aurion-ui-development-speed",
+    ...aurionUiDevelopmentSpeed,
   },
   "shadcn-customization-guide": {
     slug: "shadcn-customization-guide",

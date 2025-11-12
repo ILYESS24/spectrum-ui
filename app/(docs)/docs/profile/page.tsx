@@ -11,7 +11,7 @@ import Link from "next/link";
 import WalletProfile from "./profiledemo";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Navbar",
+  title: "Aurion UI-Navbar",
   description:
     "An enhancement slider that allows you to select a range of values.",
 });
@@ -21,7 +21,7 @@ const DualRangeSliderPage = () => {
     <PageTemplate title="Profile Dropdown">
       <PreviewCodeCard
         path="app/(docs)/docs/profile/profiledemo.tsx"
-        cli="@spectrumui/profile-dropdown"
+        cli="@aurionui/profile-dropdown"
       >
         <WalletProfile />
       </PreviewCodeCard>
@@ -38,7 +38,7 @@ const DualRangeSliderPage = () => {
         <h1 className="text-neutral-700 dark:text-neutral-400">
           Design Credit -
         </h1>
-        <Link href="https://x.com/_heyrico">@heyrico</Link>
+        <Link href="">@heyrico</span>
       </div>
     </PageTemplate>
   );

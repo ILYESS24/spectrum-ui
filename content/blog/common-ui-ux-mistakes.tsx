@@ -71,7 +71,7 @@ const blogPost = {
 
       <p className="text-base font-normal text-[#ededed] mt-4">
         <strong>How to fix it:</strong> Use skeleton screens that show the shape of what&apos;s coming. 
-        This keeps users engaged and sets expectations. Spectrum UI has skeleton components ready to go.
+        This keeps users engaged and sets expectations. Aurion UI has skeleton components ready to go.
       </p>
 
       <h2 className="text-xl font-medium mt-8 mb-4 dark:text-[#ededed] text-[#0A0A0A]">Mistake #2: Buttons That Don&apos;t Talk Back</h2>
@@ -275,7 +275,7 @@ const isDesktop = useMediaQuery("(min-width: 768px)")
       </div>
 
       <p className="text-base font-normal dark:text-[#ededed] text-[#0A0A0A]">
-        <strong>How to fix it:</strong> Use Spectrum UI components—they&apos;re built with accessibility in mind. 
+        <strong>How to fix it:</strong> Use Aurion UI components—they&apos;re built with accessibility in mind. 
         But always test with keyboard navigation and screen readers to make sure everything works.
       </p>
 
@@ -286,7 +286,7 @@ const isDesktop = useMediaQuery("(min-width: 768px)")
       </p>
 
       <p className="text-base font-normal text-[#ededed] mt-4">
-        <strong>How to fix it:</strong> Use a design system like Spectrum UI. Pick your colors, spacing, and fonts once, 
+        <strong>How to fix it:</strong> Use a design system like Aurion UI. Pick your colors, spacing, and fonts once, 
         then use them everywhere. Give your whole team the same components to work with.
       </p>
 

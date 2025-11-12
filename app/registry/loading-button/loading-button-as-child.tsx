@@ -1,5 +1,5 @@
 import React from "react";
-import { LoadingButton } from "@/app/registry/spectrumui/loading-button-dependencies";
+import { LoadingButton } from "@/app/registry/aurionui/loading-button-dependencies";
 import Link from "next/link";
 
 const LoadingButtonAsChild = () => {
@@ -9,10 +9,10 @@ const LoadingButtonAsChild = () => {
         <p>As a `p` child</p>
       </LoadingButton>
       <LoadingButton asChild>
-        <Link href="#">as a `Link` child</Link>
+        <Link href="#">as a `Link` child</span>
       </LoadingButton>
       <LoadingButton asChild variant="secondary">
-        <Link href="#">as a `Link` child with `secondary` variant</Link>
+        <Link href="#">as a `Link` child with `secondary` variant</span>
       </LoadingButton>
     </div>
   );

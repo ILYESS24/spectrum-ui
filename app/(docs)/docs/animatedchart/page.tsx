@@ -8,8 +8,8 @@ import { Chart } from "./animateddemo";
 const page = () => {
   let baseurl =
     process.env.NODE_ENV === "development"
-      ? "https://ui.spectrumhq.in"
-      : "https://ui.spectrumhq.in";
+      ? ""
+      : "";
 
   return (
     <div>
@@ -17,7 +17,7 @@ const page = () => {
         <PreviewCodeCard
           className=""
           path="app/(docs)/docs/animatedchart/animateddemo.tsx"
-          cli="@spectrumui/animated-SVG-chart"
+          cli="@aurionui/animated-SVG-chart"
         >
           <Chart />
         </PreviewCodeCard>

@@ -15,7 +15,7 @@ interface ImagePreviewProps {
 }
 
 export default function ImagePreview({
-  src = "https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  src = "",
   alt = "Preview image",
   width = 400,
   height = 400,

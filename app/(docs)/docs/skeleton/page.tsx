@@ -24,7 +24,7 @@ const SkeletonLoadingPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/skeleton/skeleton-demo.tsx"
-        cli="@spectrumui/skeleton"
+        cli="@aurionui/skeleton"
       >
         <SkeletonDemo />
       </PreviewCodeCard>
@@ -36,7 +36,7 @@ const SkeletonLoadingPage = () => {
       <Usage
         title="Card"
         path="app/(docs)/docs//skeleton/usage/skeleton-card.tsx"
-        cli="@spectrumui/skeleton-card"
+        cli="@aurionui/skeleton-card"
       >
         <SkeletonCard />
       </Usage>

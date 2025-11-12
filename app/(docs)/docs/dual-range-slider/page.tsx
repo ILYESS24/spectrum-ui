@@ -14,7 +14,7 @@ import DualRangeSliderLabelPosition from "@/app/(docs)/docs/dual-range-slider/us
 import DualRangeSliderSingle from "@/app/(docs)/docs/dual-range-slider/usage/dual-range-slider-single";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Spectrum UI-Dual Range Slider",
+  title: "Aurion UI-Dual Range Slider",
   description:
     "An enhancement slider that allows you to select a range of values.",
 });
@@ -27,7 +27,7 @@ const DualRangeSliderPage = () => {
     >
       <PreviewCodeCard
         path="app/(docs)/docs/dual-range-slider/dual-range-slider-demo.tsx"
-        cli="@spectrumui/dual-range-slider-demo"
+        cli="@aurionui/dual-range-slider-demo"
       >
         <DualRangeSliderDemo />
       </PreviewCodeCard>
@@ -44,21 +44,21 @@ const DualRangeSliderPage = () => {
       <Usage
         title="Custom Label"
         path="app/(docs)/docs/dual-range-slider/usage/dual-range-slider-custom-label.tsx"
-        cli="@spectrumui/dual-range-slider-custom-label"
+        cli="@aurionui/dual-range-slider-custom-label"
       >
         <DualRangeSliderCustomLabel />
       </Usage>
       <Usage
         title="Label Position"
         path="app/(docs)/docs/dual-range-slider/usage/dual-range-slider-label-position.tsx"
-        cli="@spectrumui/dual-range-slider-label-position"
+        cli="@aurionui/dual-range-slider-label-position"
       >
         <DualRangeSliderLabelPosition />
       </Usage>
       <Usage
         title="Single Slider"
         path="app/(docs)/docs/dual-range-slider/usage/dual-range-slider-single.tsx"
-        cli="@spectrumui/dual-range-slider-single"
+        cli="@aurionui/dual-range-slider-single"
       >
         <DualRangeSliderSingle />
       </Usage>
