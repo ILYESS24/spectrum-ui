@@ -201,8 +201,8 @@ export default function GitHubProfileCard() {
   };
 
   const shareToLinkedIn = () => {
-    const text = `I have generated my GitHub card from Aurion UI! Check out this amazing tool to showcase your GitHub profile.`;
-    const url = ``;
+    const text = "I have generated my GitHub card from Aurion UI! Check out this amazing tool to showcase your GitHub profile.";
+    const url = "";
     window.open(url, "_blank");
   };
 

@@ -207,7 +207,7 @@ export default async function BlogPage() {
                     <span className="text-sm text-muted-foreground">{post.author.name}</span>
                   </div>
                 </div>
-              </span>
+              </Link>
             ))}
           </div>
         )}
@@ -228,12 +228,12 @@ export default async function BlogPage() {
               <Button size="lg" className="w-full sm:w-auto">
                 Browse Components
               </Button>
-            </span>
+            </Link>
             <Link href="/colors">
               <Button variant="outline" size="lg" className="w-full sm:w-auto">
                 View Color Palette
               </Button>
-            </span>
+            </Link>
           </div>
         </div>
       </div>

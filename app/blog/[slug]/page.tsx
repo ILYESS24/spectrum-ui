@@ -150,7 +150,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
           <ArrowLeft className="h-4 w-4 mr-2" />
           Blog
         </Button>
-      </span>
+      </Link>
   
       {/* Article Header */}
       <article itemScope itemType="">
@@ -206,7 +206,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                 Discover our collection of React components built with Tailwind CSS and shadcn/ui
               </p>
             </div>
-          </span>
+          </Link>
           <Link href="/colors" className="group">
             <div className="p-4 border border-border rounded-lg hover:bg-accent/20 transition-colors">
               <h3 className="font-medium text-foreground group-hover:text-primary transition-colors mb-2">
@@ -216,7 +216,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                 Browse our carefully curated color palettes and design system tokens
               </p>
             </div>
-          </span>
+          </Link>
         </div>
       </section>
         </div>
