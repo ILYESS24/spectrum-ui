@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-
 import { useState } from "react";
 
 import { motion } from "motion/react";
@@ -13,8 +11,7 @@ export function AnimatedBadge() {
   const [isHover, setIsHover] = useState(false);
 
   return (
-    <Link
-      href=""
+    <span
       className="group relative outline-none block rounded-full py-[5px] pr-3 pl-1.5 bg-[#eeeeee] dark:bg-[#161616] dark:shadow-inner dark:shadow-neutral-800/80 border border-neutral-400/20 dark:border-neutral-700/70"
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
