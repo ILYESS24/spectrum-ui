@@ -117,13 +117,13 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
     url: blogUrl,
     image: `${baseUrl}/og.png`,
     category: post.category || "Engineering",
-  })
+  });
 
   const breadcrumbData = generateBlogBreadcrumbs([
     { name: "Home", url: baseUrl },
     { name: "Blog", url: `${baseUrl}/blog` },
     { name: post.title, url: blogUrl },
-  ])
+  ]);
 
   return (
     <>

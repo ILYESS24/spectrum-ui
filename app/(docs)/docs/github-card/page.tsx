@@ -195,8 +195,8 @@ export default function GitHubProfileCard() {
   };
 
   const shareToTwitter = () => {
-    const text = `I have generated my GitHub card from Aurion UI! 🚀\n\nGenerate yours: ${window.location.href}\n\n#GitHub #AurionUI #Developer`;
-    const url = ``;
+    const text = "I have generated my GitHub card from Aurion UI! 🚀\n\nGenerate yours: " + (typeof window !== "undefined" ? window.location.href : "") + "\n\n#GitHub #AurionUI #Developer";
+    const url = "";
     window.open(url, "_blank");
   };
 
@@ -207,7 +207,7 @@ export default function GitHubProfileCard() {
   };
 
   const copyToClipboard = () => {
-    const text = `I have generated my GitHub card from Aurion UI! Generate yours: ${window.location.href}`;
+    const text = "I have generated my GitHub card from Aurion UI! Generate yours: " + (typeof window !== "undefined" ? window.location.href : "");
     navigator.clipboard.writeText(text);
     alert("Link copied to clipboard!");
   };
