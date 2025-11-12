@@ -85,7 +85,7 @@ export default function GuidesPage() {
                     </CardDescription>
                   </CardHeader>
                 </Card>
-              </span>
+              </Link>
             );
           })}
         </div>
@@ -139,16 +139,16 @@ export default function GuidesPage() {
             <div className="space-y-2">
               <Link href="/docs/installation" className="block text-primary hover:underline">
                 → Quick Start Guide: Install and Setup Aurion UI
-              </span>
+              </Link>
               <Link href="/docs/accordion" className="block text-primary hover:underline">
                 → Building Accessible Accordions in React
-              </span>
+              </Link>
               <Link href="/docs/button" className="block text-primary hover:underline">
                 → Creating Custom Button Variants with Tailwind CSS
-              </span>
+              </Link>
               <Link href="/docs/card" className="block text-primary hover:underline">
                 → Designing Beautiful Card Layouts for Modern Web Apps
-              </span>
+              </Link>
             </div>
           </div>
         </section>

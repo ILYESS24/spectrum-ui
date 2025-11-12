@@ -19,7 +19,7 @@ export default function Tabnavbar() {
     <nav className="border-b">
       <div className="container mx-auto flex items-center space-x-4 justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex items-center space-x-4">
-          <Link href="#" className="text-2xl font-bold">
+          <span className="text-2xl font-bold">
             Logo
           </span>
           <NavigationMenu>
@@ -30,9 +30,8 @@ export default function Tabnavbar() {
                   <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                     <li className="row-span-3">
                       <NavigationMenuLink asChild>
-                        <Link
+                        <span
                           className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                          href="#"
                         >
                           <div className="mb-2 mt-4 text-lg font-medium">
                             Featured Product
