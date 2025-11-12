@@ -54,10 +54,10 @@ export function HeroContent() {
               <Button size="lg" className="rounded-2xl w-full sm:w-auto px-8">
                 Explore Components
               </Button>
-            </span>
+            </Link>
 
             <div className="w-full sm:w-auto">
-              <Link target="_blank" href={siteConfig.links.github}>
+              <span>
                 <Button variant="secondary" className="rounded-2xl w-full sm:w-auto px-8 h-11">
                   <div className="flex items-center">
                     <Icons.gitHub className="size-4" />
