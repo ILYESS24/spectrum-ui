@@ -235,6 +235,7 @@ export default function CardCollection() {
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Type your message..."
             onKeyPress={(e) => e.key === "Enter" && handleSend()}
+            aria-label="Message input"
           />
           <Button onClick={handleSend}>Send</Button>
         </CardFooter>
@@ -731,6 +732,7 @@ export default function CardCollection() {
                   checked={task.completed}
                   onChange={() => {}}
                   className="mr-2"
+                  aria-label={`Task ${index + 1}: ${task.name}`}
                 />
                 <span
                   className={
@@ -1440,8 +1442,7 @@ function QuickNoteCard() {
           <div
             key={name}
             ref={(elem: HTMLDivElement | null) => { itemsRef.current[index] = elem; }}
-            className="relative grid-item mb-[2rem] self-start flex justify-center group"
-            style={{ minWidth: '310px' }}
+            className="relative grid-item mb-[2rem] self-start flex justify-center group min-w-[310px]"
           >
             <CardComponent />
             <div className="absolute top-1 right-5 hidden group-hover:flex">
@@ -1903,6 +1904,7 @@ export function AIAssistantCard() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           placeholder="Type your message..."
+          aria-label="Message input"
           onKeyPress={(e) => e.key === 'Enter' && handleSend()}
         />
         <Button onClick={handleSend}>Send</Button>

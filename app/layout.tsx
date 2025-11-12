@@ -189,7 +189,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "",
+              "@context": "https://schema.org",
               "@type": "WebSite",
               name: siteConfig.name,
               url: siteConfig.url,
@@ -217,7 +217,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "",
+              "@context": "https://schema.org",
               "@type": "Organization",
               name: "Aurion UI",
               url: siteConfig.url,
